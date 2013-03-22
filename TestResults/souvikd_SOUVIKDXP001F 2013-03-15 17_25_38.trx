@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4a71d170-af3f-40d4-9654-68012857eed1" name="souvikd@SOUVIKDXP001F 2013-03-15 17:25:38" runUser="INDIADEV\souvikd" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="2c9d6db2-0a20-48cc-9b79-9d877a4d1a21">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="souvikd_SOUVIKDXP001F 2013-03-15 17_25_38">
+      <DeploymentItem filename="D:\Program Files\Microsoft Pex\PublicAssemblies\Microsoft.Pex.Linq.dll" />
+      <DeploymentItem filename="D:\UnitTesting\UnitTesting.Tests\MolesAssemblies\UnitTesting.Moles.dll" />
+      <DeploymentItem filename="D:\UnitTesting\UnitTesting\bin\Debug\UnitTesting.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Code Coverage">
+            <Configuration>
+              <CodeCoverage xmlns="">
+                <Regular>
+                  <CodeCoverageItem binaryFile="D:\UnitTesting\UnitTesting\bin\Debug\UnitTesting.dll" pdbFile="D:\UnitTesting\UnitTesting\bin\Debug\UnitTesting.instr.pdb" instrumentInPlace="true" />
+                </Regular>
+              </CodeCoverage>
+            </Configuration>
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-03-15T17:25:38.2301764+05:30" queuing="2013-03-15T17:25:44.6991334+05:30" start="2013-03-15T17:25:44.7928864+05:30" finish="2013-03-15T17:25:53.2150309+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="46" executed="46" passed="46" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <ResultFiles>
+      <ResultFile path="SOUVIKDXP001F\data.coverage" />
+    </ResultFiles>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetFileContent206" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="f215b841-a8ab-1789-85e6-22faabddcb98">
+      <Execution id="d58913ab-a165-4f2a-9926-cda333387acb" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFileContent206" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscores226" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="8fe2b1c5-6978-e869-fcf8-0637b12ec7dd">
+      <Execution id="3416eefd-f2ab-4388-9749-f1e78ae5a34d" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscores226" />
+    </UnitTest>
+    <UnitTest name="GetFileContentUsingInterfaceThrowsInvalidOperationException909" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="b7f3efec-29a9-2716-6876-d6615fdd6aff">
+      <Execution id="83445379-3816-4599-9217-8f0ba071721c" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFileContentUsingInterfaceThrowsInvalidOperationException909" />
+    </UnitTest>
+    <UnitTest name="CapitalizeWillNotCapitalizeAgain152" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="940408a2-0424-231e-5ec0-96321f043a67">
+      <Execution id="67913379-142d-4977-92f6-8691cab926ee" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeWillNotCapitalizeAgain152" />
+    </UnitTest>
+    <UnitTest name="Capitalize439" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="857bbf81-c201-722e-80a2-55a1721ce552">
+      <Execution id="447e6ce8-2b60-480b-9add-4baf1c4cf605" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="Capitalize439" />
+    </UnitTest>
+    <UnitTest name="CapitalizeMaintainsLettersCount783" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="ad1bedc1-a5c7-fbcd-57b0-3501001d2c43">
+      <Execution id="edcf439a-4162-4829-b0d5-5f65d09a5c6e" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeMaintainsLettersCount783" />
+    </UnitTest>
+    <UnitTest name="CapitalizeWillNotCapitalizeAgain922" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="cb1d8462-afb3-7f94-91df-965237b709e4">
+      <Execution id="a2fffe31-6e80-45cc-bb99-c9dc8b77292a" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeWillNotCapitalizeAgain922" />
+    </UnitTest>
+    <UnitTest name="CapitalizeMaintainsLettersCount364" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="18b99908-134d-eaec-b7ce-3c4508c39b13">
+      <Execution id="5a5a992f-1a61-446e-a7a4-e9e5aad134a8" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeMaintainsLettersCount364" />
+    </UnitTest>
+    <UnitTest name="Capitalize870" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="7fce61af-debc-9e65-89b8-b1bd9e05d829">
+      <Execution id="cc6f5c08-3af8-4ba1-84a4-d992e7234baf" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="Capitalize870" />
+    </UnitTest>
+    <UnitTest name="Capitalize669" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="0b0cda2d-4418-34d5-7f36-05a75b09f624">
+      <Execution id="17b0fd36-e805-4309-9540-260eb1602162" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="Capitalize669" />
+    </UnitTest>
+    <UnitTest name="CapitalizeThrowsArgumentNullException431" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="fe6f916b-813b-de9a-ba5e-a4dae929bd33">
+      <Execution id="d7c76a54-d2a7-4f9c-83a8-a2eb8bb229c3" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeThrowsArgumentNullException431" />
+    </UnitTest>
+    <UnitTest name="Capitalize426" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="9f32a9ae-e02c-81cb-f60b-a304fec5965a">
+      <Execution id="6d118f95-cb74-4dd4-998c-e9b09fdfef2d" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="Capitalize426" />
+    </UnitTest>
+    <UnitTest name="CapitalizeWillNotCapitalizeAgain526" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="7a701d9e-d838-3de2-cf93-bbc6eea0334a">
+      <Execution id="18a9fe9d-a5bd-4492-866e-eccdff5139f2" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeWillNotCapitalizeAgain526" />
+    </UnitTest>
+    <UnitTest name="GetFileContentThrowsInvalidOperationException872" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="ccdcdfdf-bf29-e3bd-24a2-1e04c71e9f65">
+      <Execution id="bfece4e8-dfb0-46ae-a99b-c664b8185696" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFileContentThrowsInvalidOperationException872" />
+    </UnitTest>
+    <UnitTest name="Capitalize393" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="1c305f0e-2122-82a0-fa35-359f2155ea13">
+      <Execution id="dcbd9810-5582-440f-a472-7d1d4135f399" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="Capitalize393" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscores467" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="3bcaf3e5-14e0-4491-ddba-1741f472a94c">
+      <Execution id="42cc7d38-ffdc-44e3-b461-4fea401c80c1" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscores467" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscores868" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="79c80897-a058-67d7-18d0-da5398d6323f">
+      <Execution id="885b2a74-d733-450b-8c4e-5c0e99731429" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscores868" />
+    </UnitTest>
+    <UnitTest name="CapitalizeWillNotCapitalizeAgain364" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="2b61789e-1697-3d8a-fc35-391a94542a91">
+      <Execution id="f279c8cd-0f1b-4c94-88d7-be2225d49da7" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeWillNotCapitalizeAgain364" />
+    </UnitTest>
+    <UnitTest name="CapitalizeMaintainsLettersCount396" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="44e631e4-b5d7-181f-4d68-fd8e770558c9">
+      <Execution id="40733975-0bd9-42ef-8445-09109a55747c" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeMaintainsLettersCount396" />
+    </UnitTest>
+    <UnitTest name="Capitalize727" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="32c50493-9e02-123b-352c-a193505a23db">
+      <Execution id="3dd738a3-04f3-42a9-9d3e-0040a87d17f6" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="Capitalize727" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscores364" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="3d403cbb-7b5d-6219-f8e7-8111151e0d92">
+      <Execution id="40b20b8a-28e5-4d5d-88bc-b84f96d88ac4" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscores364" />
+    </UnitTest>
+    <UnitTest name="Capitalize538" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="9586abf1-1916-656c-9f38-28806581572c">
+      <Execution id="d4f6e830-1cc5-4ef1-99a1-82127f983ccf" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="Capitalize538" />
+    </UnitTest>
+    <UnitTest name="Capitalize983" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="11673649-73ef-a18d-789f-eb42fbbc4c39">
+      <Execution id="510eb739-2234-4a5f-942e-d41e530cbb1a" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="Capitalize983" />
+    </UnitTest>
+    <UnitTest name="CapitalizeMaintainsLettersCount526" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="00b5d9cb-87e8-aafa-92ff-76361c36953e">
+      <Execution id="9c2978ff-3793-4d35-bfad-a26247eb62d1" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeMaintainsLettersCount526" />
+    </UnitTest>
+    <UnitTest name="CapitalizeMaintainsLettersCountThrowsArgumentNullException456" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="81125343-0239-d209-bf9d-1496e0388d56">
+      <Execution id="25e464b2-f53a-4c3c-95a8-00cfeab5ce04" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeMaintainsLettersCountThrowsArgumentNullException456" />
+    </UnitTest>
+    <UnitTest name="GetFileContentUsingInterfaceThrowsInvalidOperationException870" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="bcd71365-5244-6bf9-3d45-d722213ec6d7">
+      <Execution id="20d1b482-ef13-4a84-9c56-a1efc1fa296c" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFileContentUsingInterfaceThrowsInvalidOperationException870" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscores922" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="ffc272b0-94bb-5a6b-af71-ab673aa3d28d">
+      <Execution id="ddd7f1e8-40a9-494a-b722-fc0ee3bb0e9e" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscores922" />
+    </UnitTest>
+    <UnitTest name="GetFileContentUsingInterface206" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="1ede0e4d-9b27-4da5-e515-ea6117bec58e">
+      <Execution id="7ce3c0d6-e0ad-433e-a0bc-d5c2baa3c5f8" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFileContentUsingInterface206" />
+    </UnitTest>
+    <UnitTest name="Capitalize411" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="6244c7a8-f694-792b-71e3-31800aa56da7">
+      <Execution id="56cda1d8-2774-4c68-9517-09c8e4b39701" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="Capitalize411" />
+    </UnitTest>
+    <UnitTest name="CapitalizeWillNotCapitalizeAgainThrowsArgumentNullException94" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="d74eabe9-3c22-076f-f9e5-e0fcd1dd212b">
+      <Execution id="027632a8-208c-44db-8d6b-035a6c2d549f" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeWillNotCapitalizeAgainThrowsArgumentNullException94" />
+    </UnitTest>
+    <UnitTest name="Capitalize582" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="5f2f75cc-5412-5d31-09f2-a91f8adce426">
+      <Execution id="6262a84b-7eff-48a7-a49b-221af507bd4b" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="Capitalize582" />
+    </UnitTest>
+    <UnitTest name="CapitalizeMaintainsLettersCount217" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="970f2100-c46d-c075-9bcf-514836a4ac8f">
+      <Execution id="53a6f80b-cc5e-4134-9789-7eb6bdd478e9" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeMaintainsLettersCount217" />
+    </UnitTest>
+    <UnitTest name="CapitalizeMaintainsLettersCount554" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="11eac963-cd48-c63a-1e13-706bb87c650d">
+      <Execution id="3a34822d-63e3-4d4b-8034-e8c8e8345725" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeMaintainsLettersCount554" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscores396" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="e9efd049-7300-2d2c-d54e-7e46c4383668">
+      <Execution id="c76c0136-b7d4-41ee-9322-98c68d89f02f" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscores396" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscores152" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="56298f22-4179-f485-78de-86a5d60a5d08">
+      <Execution id="c55b43c8-3e3c-4e4d-ab94-b04ed65508dc" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscores152" />
+    </UnitTest>
+    <UnitTest name="GetFileContentThrowsInvalidOperationException289" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="1140ad8a-5782-5964-5512-0068887264c1">
+      <Execution id="8c5ee1c7-225b-4248-ab47-929b24b96ba7" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetFileContentThrowsInvalidOperationException289" />
+    </UnitTest>
+    <UnitTest name="Capitalize630" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="d12dbe24-1c39-68f0-8ad8-90a9466ffcc8">
+      <Execution id="0dfc0bcd-cf6f-4ad6-9a22-a43f3e1e7827" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="Capitalize630" />
+    </UnitTest>
+    <UnitTest name="CapitalizeWillNotCapitalizeAgain154" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="a7c0bbe4-08c3-8d20-5f9f-61ce3c31ff08">
+      <Execution id="372cb011-1032-463f-a63e-5e7d8f762fff" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeWillNotCapitalizeAgain154" />
+    </UnitTest>
+    <UnitTest name="CapitalizeMaintainsLettersCount922" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="fd22e181-5e6b-b782-2fee-13e8f5775f21">
+      <Execution id="76034c4a-0fe2-486d-a9bf-d3861074371e" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeMaintainsLettersCount922" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscores18" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="6d5815c6-23ba-5872-a43b-ee95a3b341b4">
+      <Execution id="5da06997-a796-4f30-a797-b63d8e28b90c" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscores18" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscores526" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="9ba2d526-786a-1bbf-7afc-8ac7d326b2c1">
+      <Execution id="19c06641-d9d4-42b2-bd70-e54ed366fa1f" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscores526" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscores217" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="2b4f90dd-c5b0-f0cd-a882-7c4135cabb3d">
+      <Execution id="ff046d26-fc29-4b33-a4c6-d6c7427f8761" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscores217" />
+    </UnitTest>
+    <UnitTest name="CapitalizeWillNotCapitalizeAgain396" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="1d31fac9-138c-bfce-9b5a-615340ab0790">
+      <Execution id="8c60beee-ee7e-4091-9ced-421988c597a2" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeWillNotCapitalizeAgain396" />
+    </UnitTest>
+    <UnitTest name="CapitalizeMaintainsLettersCount152" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="7a794a80-a2cd-4190-4d8a-aa1521646eac">
+      <Execution id="90e0ae5f-b366-486f-b9bf-59ce93837d8c" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeMaintainsLettersCount152" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscores747" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="ac8a02b8-4520-7126-d606-4c06713cd247">
+      <Execution id="c92e906e-c84c-44c5-a2ea-19713b04835e" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscores747" />
+    </UnitTest>
+    <UnitTest name="CapitalizeReturnsOnlyLettersAndUnderscoresThrowsArgumentNullException34" storage="d:\unittesting\unittesting.tests\bin\debug\unittesting.tests.dll" id="2c9cbc39-1930-d32a-c417-d9c1ba5049f7">
+      <Execution id="dcbcb1c0-ec85-4265-a00b-1e8d2113eac9" />
+      <TestMethod codeBase="D:/UnitTesting/UnitTesting.Tests/bin/Debug/UnitTesting.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTesting.UnitTest.UnitTestExampleTest, UnitTesting.Tests, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" name="CapitalizeReturnsOnlyLettersAndUnderscoresThrowsArgumentNullException34" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b7f3efec-29a9-2716-6876-d6615fdd6aff" executionId="83445379-3816-4599-9217-8f0ba071721c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcd71365-5244-6bf9-3d45-d722213ec6d7" executionId="20d1b482-ef13-4a84-9c56-a1efc1fa296c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ede0e4d-9b27-4da5-e515-ea6117bec58e" executionId="7ce3c0d6-e0ad-433e-a0bc-d5c2baa3c5f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ccdcdfdf-bf29-e3bd-24a2-1e04c71e9f65" executionId="bfece4e8-dfb0-46ae-a99b-c664b8185696" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1140ad8a-5782-5964-5512-0068887264c1" executionId="8c5ee1c7-225b-4248-ab47-929b24b96ba7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f215b841-a8ab-1789-85e6-22faabddcb98" executionId="d58913ab-a165-4f2a-9926-cda333387acb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d74eabe9-3c22-076f-f9e5-e0fcd1dd212b" executionId="027632a8-208c-44db-8d6b-035a6c2d549f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb1d8462-afb3-7f94-91df-965237b709e4" executionId="a2fffe31-6e80-45cc-bb99-c9dc8b77292a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a701d9e-d838-3de2-cf93-bbc6eea0334a" executionId="18a9fe9d-a5bd-4492-866e-eccdff5139f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d31fac9-138c-bfce-9b5a-615340ab0790" executionId="8c60beee-ee7e-4091-9ced-421988c597a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b61789e-1697-3d8a-fc35-391a94542a91" executionId="f279c8cd-0f1b-4c94-88d7-be2225d49da7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7c0bbe4-08c3-8d20-5f9f-61ce3c31ff08" executionId="372cb011-1032-463f-a63e-5e7d8f762fff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="940408a2-0424-231e-5ec0-96321f043a67" executionId="67913379-142d-4977-92f6-8691cab926ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe6f916b-813b-de9a-ba5e-a4dae929bd33" executionId="d7c76a54-d2a7-4f9c-83a8-a2eb8bb229c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c9cbc39-1930-d32a-c417-d9c1ba5049f7" executionId="dcbcb1c0-ec85-4265-a00b-1e8d2113eac9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffc272b0-94bb-5a6b-af71-ab673aa3d28d" executionId="ddd7f1e8-40a9-494a-b722-fc0ee3bb0e9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79c80897-a058-67d7-18d0-da5398d6323f" executionId="885b2a74-d733-450b-8c4e-5c0e99731429" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac8a02b8-4520-7126-d606-4c06713cd247" executionId="c92e906e-c84c-44c5-a2ea-19713b04835e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ba2d526-786a-1bbf-7afc-8ac7d326b2c1" executionId="19c06641-d9d4-42b2-bd70-e54ed366fa1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3bcaf3e5-14e0-4491-ddba-1741f472a94c" executionId="42cc7d38-ffdc-44e3-b461-4fea401c80c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9efd049-7300-2d2c-d54e-7e46c4383668" executionId="c76c0136-b7d4-41ee-9322-98c68d89f02f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d403cbb-7b5d-6219-f8e7-8111151e0d92" executionId="40b20b8a-28e5-4d5d-88bc-b84f96d88ac4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fe2b1c5-6978-e869-fcf8-0637b12ec7dd" executionId="3416eefd-f2ab-4388-9749-f1e78ae5a34d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b4f90dd-c5b0-f0cd-a882-7c4135cabb3d" executionId="ff046d26-fc29-4b33-a4c6-d6c7427f8761" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d5815c6-23ba-5872-a43b-ee95a3b341b4" executionId="5da06997-a796-4f30-a797-b63d8e28b90c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56298f22-4179-f485-78de-86a5d60a5d08" executionId="c55b43c8-3e3c-4e4d-ab94-b04ed65508dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81125343-0239-d209-bf9d-1496e0388d56" executionId="25e464b2-f53a-4c3c-95a8-00cfeab5ce04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd22e181-5e6b-b782-2fee-13e8f5775f21" executionId="76034c4a-0fe2-486d-a9bf-d3861074371e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad1bedc1-a5c7-fbcd-57b0-3501001d2c43" executionId="edcf439a-4162-4829-b0d5-5f65d09a5c6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11eac963-cd48-c63a-1e13-706bb87c650d" executionId="3a34822d-63e3-4d4b-8034-e8c8e8345725" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00b5d9cb-87e8-aafa-92ff-76361c36953e" executionId="9c2978ff-3793-4d35-bfad-a26247eb62d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44e631e4-b5d7-181f-4d68-fd8e770558c9" executionId="40733975-0bd9-42ef-8445-09109a55747c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18b99908-134d-eaec-b7ce-3c4508c39b13" executionId="5a5a992f-1a61-446e-a7a4-e9e5aad134a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="970f2100-c46d-c075-9bcf-514836a4ac8f" executionId="53a6f80b-cc5e-4134-9789-7eb6bdd478e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a794a80-a2cd-4190-4d8a-aa1521646eac" executionId="90e0ae5f-b366-486f-b9bf-59ce93837d8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11673649-73ef-a18d-789f-eb42fbbc4c39" executionId="510eb739-2234-4a5f-942e-d41e530cbb1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7fce61af-debc-9e65-89b8-b1bd9e05d829" executionId="cc6f5c08-3af8-4ba1-84a4-d992e7234baf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32c50493-9e02-123b-352c-a193505a23db" executionId="3dd738a3-04f3-42a9-9d3e-0040a87d17f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b0cda2d-4418-34d5-7f36-05a75b09f624" executionId="17b0fd36-e805-4309-9540-260eb1602162" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d12dbe24-1c39-68f0-8ad8-90a9466ffcc8" executionId="0dfc0bcd-cf6f-4ad6-9a22-a43f3e1e7827" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f2f75cc-5412-5d31-09f2-a91f8adce426" executionId="6262a84b-7eff-48a7-a49b-221af507bd4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9586abf1-1916-656c-9f38-28806581572c" executionId="d4f6e830-1cc5-4ef1-99a1-82127f983ccf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="857bbf81-c201-722e-80a2-55a1721ce552" executionId="447e6ce8-2b60-480b-9add-4baf1c4cf605" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f32a9ae-e02c-81cb-f60b-a304fec5965a" executionId="6d118f95-cb74-4dd4-998c-e9b09fdfef2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6244c7a8-f694-792b-71e3-31800aa56da7" executionId="56cda1d8-2774-4c68-9517-09c8e4b39701" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c305f0e-2122-82a0-fa35-359f2155ea13" executionId="dcbd9810-5582-440f-a472-7d1d4135f399" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="83445379-3816-4599-9217-8f0ba071721c" testId="b7f3efec-29a9-2716-6876-d6615fdd6aff" testName="GetFileContentUsingInterfaceThrowsInvalidOperationException909" computerName="SOUVIKDXP001F" duration="00:00:00.0783144" startTime="2013-03-15T17:25:46.0429264+05:30" endTime="2013-03-15T17:25:46.4960659+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83445379-3816-4599-9217-8f0ba071721c">
+    </UnitTestResult>
+    <UnitTestResult executionId="20d1b482-ef13-4a84-9c56-a1efc1fa296c" testId="bcd71365-5244-6bf9-3d45-d722213ec6d7" testName="GetFileContentUsingInterfaceThrowsInvalidOperationException870" computerName="SOUVIKDXP001F" duration="00:00:00.0009517" startTime="2013-03-15T17:25:46.4960659+05:30" endTime="2013-03-15T17:25:46.5116914+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20d1b482-ef13-4a84-9c56-a1efc1fa296c">
+    </UnitTestResult>
+    <UnitTestResult executionId="7ce3c0d6-e0ad-433e-a0bc-d5c2baa3c5f8" testId="1ede0e4d-9b27-4da5-e515-ea6117bec58e" testName="GetFileContentUsingInterface206" computerName="SOUVIKDXP001F" duration="00:00:00.0008612" startTime="2013-03-15T17:25:46.5273169+05:30" endTime="2013-03-15T17:25:46.5273169+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ce3c0d6-e0ad-433e-a0bc-d5c2baa3c5f8">
+    </UnitTestResult>
+    <UnitTestResult executionId="bfece4e8-dfb0-46ae-a99b-c664b8185696" testId="ccdcdfdf-bf29-e3bd-24a2-1e04c71e9f65" testName="GetFileContentThrowsInvalidOperationException872" computerName="SOUVIKDXP001F" duration="00:00:00.1313828" startTime="2013-03-15T17:25:46.5898189+05:30" endTime="2013-03-15T17:25:50.9649589+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bfece4e8-dfb0-46ae-a99b-c664b8185696">
+    </UnitTestResult>
+    <UnitTestResult executionId="8c5ee1c7-225b-4248-ab47-929b24b96ba7" testId="1140ad8a-5782-5964-5512-0068887264c1" testName="GetFileContentThrowsInvalidOperationException289" computerName="SOUVIKDXP001F" duration="00:00:00.0014507" startTime="2013-03-15T17:25:50.9649589+05:30" endTime="2013-03-15T17:25:50.9962099+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c5ee1c7-225b-4248-ab47-929b24b96ba7">
+    </UnitTestResult>
+    <UnitTestResult executionId="d58913ab-a165-4f2a-9926-cda333387acb" testId="f215b841-a8ab-1789-85e6-22faabddcb98" testName="GetFileContent206" computerName="SOUVIKDXP001F" duration="00:00:00.0066259" startTime="2013-03-15T17:25:50.9962099+05:30" endTime="2013-03-15T17:25:51.0274609+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d58913ab-a165-4f2a-9926-cda333387acb">
+    </UnitTestResult>
+    <UnitTestResult executionId="027632a8-208c-44db-8d6b-035a6c2d549f" testId="d74eabe9-3c22-076f-f9e5-e0fcd1dd212b" testName="CapitalizeWillNotCapitalizeAgainThrowsArgumentNullException94" computerName="SOUVIKDXP001F" duration="00:00:00.0029554" startTime="2013-03-15T17:25:51.0274609+05:30" endTime="2013-03-15T17:25:51.0430864+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="027632a8-208c-44db-8d6b-035a6c2d549f">
+    </UnitTestResult>
+    <UnitTestResult executionId="a2fffe31-6e80-45cc-bb99-c9dc8b77292a" testId="cb1d8462-afb3-7f94-91df-965237b709e4" testName="CapitalizeWillNotCapitalizeAgain922" computerName="SOUVIKDXP001F" duration="00:00:00.0036113" startTime="2013-03-15T17:25:51.0430864+05:30" endTime="2013-03-15T17:25:51.0587119+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2fffe31-6e80-45cc-bb99-c9dc8b77292a">
+    </UnitTestResult>
+    <UnitTestResult executionId="18a9fe9d-a5bd-4492-866e-eccdff5139f2" testId="7a701d9e-d838-3de2-cf93-bbc6eea0334a" testName="CapitalizeWillNotCapitalizeAgain526" computerName="SOUVIKDXP001F" duration="00:00:00.0032682" startTime="2013-03-15T17:25:51.0587119+05:30" endTime="2013-03-15T17:25:51.0743374+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18a9fe9d-a5bd-4492-866e-eccdff5139f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="8c60beee-ee7e-4091-9ced-421988c597a2" testId="1d31fac9-138c-bfce-9b5a-615340ab0790" testName="CapitalizeWillNotCapitalizeAgain396" computerName="SOUVIKDXP001F" duration="00:00:00.0031973" startTime="2013-03-15T17:25:51.0743374+05:30" endTime="2013-03-15T17:25:51.0899629+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c60beee-ee7e-4091-9ced-421988c597a2">
+    </UnitTestResult>
+    <UnitTestResult executionId="f279c8cd-0f1b-4c94-88d7-be2225d49da7" testId="2b61789e-1697-3d8a-fc35-391a94542a91" testName="CapitalizeWillNotCapitalizeAgain364" computerName="SOUVIKDXP001F" duration="00:00:00.0014960" startTime="2013-03-15T17:25:51.0899629+05:30" endTime="2013-03-15T17:25:51.1055884+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f279c8cd-0f1b-4c94-88d7-be2225d49da7">
+    </UnitTestResult>
+    <UnitTestResult executionId="372cb011-1032-463f-a63e-5e7d8f762fff" testId="a7c0bbe4-08c3-8d20-5f9f-61ce3c31ff08" testName="CapitalizeWillNotCapitalizeAgain154" computerName="SOUVIKDXP001F" duration="00:00:00.0019566" startTime="2013-03-15T17:25:51.1055884+05:30" endTime="2013-03-15T17:25:51.1055884+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="372cb011-1032-463f-a63e-5e7d8f762fff">
+    </UnitTestResult>
+    <UnitTestResult executionId="67913379-142d-4977-92f6-8691cab926ee" testId="940408a2-0424-231e-5ec0-96321f043a67" testName="CapitalizeWillNotCapitalizeAgain152" computerName="SOUVIKDXP001F" duration="00:00:00.0032043" startTime="2013-03-15T17:25:51.1212139+05:30" endTime="2013-03-15T17:25:51.1212139+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67913379-142d-4977-92f6-8691cab926ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="d7c76a54-d2a7-4f9c-83a8-a2eb8bb229c3" testId="fe6f916b-813b-de9a-ba5e-a4dae929bd33" testName="CapitalizeThrowsArgumentNullException431" computerName="SOUVIKDXP001F" duration="00:00:00.0015007" startTime="2013-03-15T17:25:51.1212139+05:30" endTime="2013-03-15T17:25:51.1368394+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7c76a54-d2a7-4f9c-83a8-a2eb8bb229c3">
+    </UnitTestResult>
+    <UnitTestResult executionId="dcbcb1c0-ec85-4265-a00b-1e8d2113eac9" testId="2c9cbc39-1930-d32a-c417-d9c1ba5049f7" testName="CapitalizeReturnsOnlyLettersAndUnderscoresThrowsArgumentNullException34" computerName="SOUVIKDXP001F" duration="00:00:00.0011990" startTime="2013-03-15T17:25:51.1368394+05:30" endTime="2013-03-15T17:25:51.1368394+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcbcb1c0-ec85-4265-a00b-1e8d2113eac9">
+    </UnitTestResult>
+    <UnitTestResult executionId="ddd7f1e8-40a9-494a-b722-fc0ee3bb0e9e" testId="ffc272b0-94bb-5a6b-af71-ab673aa3d28d" testName="CapitalizeReturnsOnlyLettersAndUnderscores922" computerName="SOUVIKDXP001F" duration="00:00:00.0039734" startTime="2013-03-15T17:25:51.1524649+05:30" endTime="2013-03-15T17:25:51.1524649+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddd7f1e8-40a9-494a-b722-fc0ee3bb0e9e">
+    </UnitTestResult>
+    <UnitTestResult executionId="885b2a74-d733-450b-8c4e-5c0e99731429" testId="79c80897-a058-67d7-18d0-da5398d6323f" testName="CapitalizeReturnsOnlyLettersAndUnderscores868" computerName="SOUVIKDXP001F" duration="00:00:00.0007386" startTime="2013-03-15T17:25:51.1524649+05:30" endTime="2013-03-15T17:25:51.1680904+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="885b2a74-d733-450b-8c4e-5c0e99731429">
+    </UnitTestResult>
+    <UnitTestResult executionId="c92e906e-c84c-44c5-a2ea-19713b04835e" testId="ac8a02b8-4520-7126-d606-4c06713cd247" testName="CapitalizeReturnsOnlyLettersAndUnderscores747" computerName="SOUVIKDXP001F" duration="00:00:00.0006397" startTime="2013-03-15T17:25:51.1680904+05:30" endTime="2013-03-15T17:25:51.1680904+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c92e906e-c84c-44c5-a2ea-19713b04835e">
+    </UnitTestResult>
+    <UnitTestResult executionId="19c06641-d9d4-42b2-bd70-e54ed366fa1f" testId="9ba2d526-786a-1bbf-7afc-8ac7d326b2c1" testName="CapitalizeReturnsOnlyLettersAndUnderscores526" computerName="SOUVIKDXP001F" duration="00:00:00.0030758" startTime="2013-03-15T17:25:51.1837159+05:30" endTime="2013-03-15T17:25:51.1837159+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19c06641-d9d4-42b2-bd70-e54ed366fa1f">
+    </UnitTestResult>
+    <UnitTestResult executionId="42cc7d38-ffdc-44e3-b461-4fea401c80c1" testId="3bcaf3e5-14e0-4491-ddba-1741f472a94c" testName="CapitalizeReturnsOnlyLettersAndUnderscores467" computerName="SOUVIKDXP001F" duration="00:00:00.0029755" startTime="2013-03-15T17:25:51.1837159+05:30" endTime="2013-03-15T17:25:51.1993414+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42cc7d38-ffdc-44e3-b461-4fea401c80c1">
+    </UnitTestResult>
+    <UnitTestResult executionId="c76c0136-b7d4-41ee-9322-98c68d89f02f" testId="e9efd049-7300-2d2c-d54e-7e46c4383668" testName="CapitalizeReturnsOnlyLettersAndUnderscores396" computerName="SOUVIKDXP001F" duration="00:00:00.0032861" startTime="2013-03-15T17:25:51.1993414+05:30" endTime="2013-03-15T17:25:51.1993414+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c76c0136-b7d4-41ee-9322-98c68d89f02f">
+    </UnitTestResult>
+    <UnitTestResult executionId="40b20b8a-28e5-4d5d-88bc-b84f96d88ac4" testId="3d403cbb-7b5d-6219-f8e7-8111151e0d92" testName="CapitalizeReturnsOnlyLettersAndUnderscores364" computerName="SOUVIKDXP001F" duration="00:00:00.0033252" startTime="2013-03-15T17:25:51.2149669+05:30" endTime="2013-03-15T17:25:51.2305924+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40b20b8a-28e5-4d5d-88bc-b84f96d88ac4">
+    </UnitTestResult>
+    <UnitTestResult executionId="3416eefd-f2ab-4388-9749-f1e78ae5a34d" testId="8fe2b1c5-6978-e869-fcf8-0637b12ec7dd" testName="CapitalizeReturnsOnlyLettersAndUnderscores226" computerName="SOUVIKDXP001F" duration="00:00:00.0006640" startTime="2013-03-15T17:25:51.2305924+05:30" endTime="2013-03-15T17:25:51.2305924+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3416eefd-f2ab-4388-9749-f1e78ae5a34d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ff046d26-fc29-4b33-a4c6-d6c7427f8761" testId="2b4f90dd-c5b0-f0cd-a882-7c4135cabb3d" testName="CapitalizeReturnsOnlyLettersAndUnderscores217" computerName="SOUVIKDXP001F" duration="00:00:00.0001572" startTime="2013-03-15T17:25:51.2305924+05:30" endTime="2013-03-15T17:25:51.2462179+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff046d26-fc29-4b33-a4c6-d6c7427f8761">
+    </UnitTestResult>
+    <UnitTestResult executionId="5da06997-a796-4f30-a797-b63d8e28b90c" testId="6d5815c6-23ba-5872-a43b-ee95a3b341b4" testName="CapitalizeReturnsOnlyLettersAndUnderscores18" computerName="SOUVIKDXP001F" duration="00:00:00.0036775" startTime="2013-03-15T17:25:51.2462179+05:30" endTime="2013-03-15T17:25:51.2618434+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5da06997-a796-4f30-a797-b63d8e28b90c">
+    </UnitTestResult>
+    <UnitTestResult executionId="c55b43c8-3e3c-4e4d-ab94-b04ed65508dc" testId="56298f22-4179-f485-78de-86a5d60a5d08" testName="CapitalizeReturnsOnlyLettersAndUnderscores152" computerName="SOUVIKDXP001F" duration="00:00:00.0036256" startTime="2013-03-15T17:25:51.2618434+05:30" endTime="2013-03-15T17:25:51.2618434+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c55b43c8-3e3c-4e4d-ab94-b04ed65508dc">
+    </UnitTestResult>
+    <UnitTestResult executionId="25e464b2-f53a-4c3c-95a8-00cfeab5ce04" testId="81125343-0239-d209-bf9d-1496e0388d56" testName="CapitalizeMaintainsLettersCountThrowsArgumentNullException456" computerName="SOUVIKDXP001F" duration="00:00:00.0022558" startTime="2013-03-15T17:25:51.2774689+05:30" endTime="2013-03-15T17:25:51.2774689+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25e464b2-f53a-4c3c-95a8-00cfeab5ce04">
+    </UnitTestResult>
+    <UnitTestResult executionId="76034c4a-0fe2-486d-a9bf-d3861074371e" testId="fd22e181-5e6b-b782-2fee-13e8f5775f21" testName="CapitalizeMaintainsLettersCount922" computerName="SOUVIKDXP001F" duration="00:00:00.0035378" startTime="2013-03-15T17:25:51.2774689+05:30" endTime="2013-03-15T17:25:51.2930944+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76034c4a-0fe2-486d-a9bf-d3861074371e">
+    </UnitTestResult>
+    <UnitTestResult executionId="edcf439a-4162-4829-b0d5-5f65d09a5c6e" testId="ad1bedc1-a5c7-fbcd-57b0-3501001d2c43" testName="CapitalizeMaintainsLettersCount783" computerName="SOUVIKDXP001F" duration="00:00:00.0022167" startTime="2013-03-15T17:25:51.2930944+05:30" endTime="2013-03-15T17:25:51.2930944+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edcf439a-4162-4829-b0d5-5f65d09a5c6e">
+    </UnitTestResult>
+    <UnitTestResult executionId="3a34822d-63e3-4d4b-8034-e8c8e8345725" testId="11eac963-cd48-c63a-1e13-706bb87c650d" testName="CapitalizeMaintainsLettersCount554" computerName="SOUVIKDXP001F" duration="00:00:00.0032615" startTime="2013-03-15T17:25:51.3087199+05:30" endTime="2013-03-15T17:25:51.3087199+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a34822d-63e3-4d4b-8034-e8c8e8345725">
+    </UnitTestResult>
+    <UnitTestResult executionId="9c2978ff-3793-4d35-bfad-a26247eb62d1" testId="00b5d9cb-87e8-aafa-92ff-76361c36953e" testName="CapitalizeMaintainsLettersCount526" computerName="SOUVIKDXP001F" duration="00:00:00.0006187" startTime="2013-03-15T17:25:51.3087199+05:30" endTime="2013-03-15T17:25:51.3243454+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c2978ff-3793-4d35-bfad-a26247eb62d1">
+    </UnitTestResult>
+    <UnitTestResult executionId="40733975-0bd9-42ef-8445-09109a55747c" testId="44e631e4-b5d7-181f-4d68-fd8e770558c9" testName="CapitalizeMaintainsLettersCount396" computerName="SOUVIKDXP001F" duration="00:00:00.0001536" startTime="2013-03-15T17:25:51.3243454+05:30" endTime="2013-03-15T17:25:51.3243454+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40733975-0bd9-42ef-8445-09109a55747c">
+    </UnitTestResult>
+    <UnitTestResult executionId="5a5a992f-1a61-446e-a7a4-e9e5aad134a8" testId="18b99908-134d-eaec-b7ce-3c4508c39b13" testName="CapitalizeMaintainsLettersCount364" computerName="SOUVIKDXP001F" duration="00:00:00.0006302" startTime="2013-03-15T17:25:51.3399709+05:30" endTime="2013-03-15T17:25:51.3399709+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a5a992f-1a61-446e-a7a4-e9e5aad134a8">
+    </UnitTestResult>
+    <UnitTestResult executionId="53a6f80b-cc5e-4134-9789-7eb6bdd478e9" testId="970f2100-c46d-c075-9bcf-514836a4ac8f" testName="CapitalizeMaintainsLettersCount217" computerName="SOUVIKDXP001F" duration="00:00:00.0006165" startTime="2013-03-15T17:25:51.3399709+05:30" endTime="2013-03-15T17:25:51.3555964+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53a6f80b-cc5e-4134-9789-7eb6bdd478e9">
+    </UnitTestResult>
+    <UnitTestResult executionId="90e0ae5f-b366-486f-b9bf-59ce93837d8c" testId="7a794a80-a2cd-4190-4d8a-aa1521646eac" testName="CapitalizeMaintainsLettersCount152" computerName="SOUVIKDXP001F" duration="00:00:00.0006182" startTime="2013-03-15T17:25:51.3555964+05:30" endTime="2013-03-15T17:25:51.3555964+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90e0ae5f-b366-486f-b9bf-59ce93837d8c">
+    </UnitTestResult>
+    <UnitTestResult executionId="510eb739-2234-4a5f-942e-d41e530cbb1a" testId="11673649-73ef-a18d-789f-eb42fbbc4c39" testName="Capitalize983" computerName="SOUVIKDXP001F" duration="00:00:00.0002704" startTime="2013-03-15T17:25:51.3555964+05:30" endTime="2013-03-15T17:25:51.3712219+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="510eb739-2234-4a5f-942e-d41e530cbb1a">
+    </UnitTestResult>
+    <UnitTestResult executionId="cc6f5c08-3af8-4ba1-84a4-d992e7234baf" testId="7fce61af-debc-9e65-89b8-b1bd9e05d829" testName="Capitalize870" computerName="SOUVIKDXP001F" duration="00:00:00.0006523" startTime="2013-03-15T17:25:51.3712219+05:30" endTime="2013-03-15T17:25:51.3712219+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc6f5c08-3af8-4ba1-84a4-d992e7234baf">
+    </UnitTestResult>
+    <UnitTestResult executionId="3dd738a3-04f3-42a9-9d3e-0040a87d17f6" testId="32c50493-9e02-123b-352c-a193505a23db" testName="Capitalize727" computerName="SOUVIKDXP001F" duration="00:00:00.0006713" startTime="2013-03-15T17:25:51.3712219+05:30" endTime="2013-03-15T17:25:51.3868474+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3dd738a3-04f3-42a9-9d3e-0040a87d17f6">
+    </UnitTestResult>
+    <UnitTestResult executionId="17b0fd36-e805-4309-9540-260eb1602162" testId="0b0cda2d-4418-34d5-7f36-05a75b09f624" testName="Capitalize669" computerName="SOUVIKDXP001F" duration="00:00:00.0006685" startTime="2013-03-15T17:25:51.3868474+05:30" endTime="2013-03-15T17:25:51.3868474+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17b0fd36-e805-4309-9540-260eb1602162">
+    </UnitTestResult>
+    <UnitTestResult executionId="0dfc0bcd-cf6f-4ad6-9a22-a43f3e1e7827" testId="d12dbe24-1c39-68f0-8ad8-90a9466ffcc8" testName="Capitalize630" computerName="SOUVIKDXP001F" duration="00:00:00.0006620" startTime="2013-03-15T17:25:51.4024729+05:30" endTime="2013-03-15T17:25:51.4024729+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dfc0bcd-cf6f-4ad6-9a22-a43f3e1e7827">
+    </UnitTestResult>
+    <UnitTestResult executionId="6262a84b-7eff-48a7-a49b-221af507bd4b" testId="5f2f75cc-5412-5d31-09f2-a91f8adce426" testName="Capitalize582" computerName="SOUVIKDXP001F" duration="00:00:00.0002081" startTime="2013-03-15T17:25:51.4024729+05:30" endTime="2013-03-15T17:25:51.4024729+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6262a84b-7eff-48a7-a49b-221af507bd4b">
+    </UnitTestResult>
+    <UnitTestResult executionId="d4f6e830-1cc5-4ef1-99a1-82127f983ccf" testId="9586abf1-1916-656c-9f38-28806581572c" testName="Capitalize538" computerName="SOUVIKDXP001F" duration="00:00:00.0006665" startTime="2013-03-15T17:25:51.4180984+05:30" endTime="2013-03-15T17:25:51.4180984+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4f6e830-1cc5-4ef1-99a1-82127f983ccf">
+    </UnitTestResult>
+    <UnitTestResult executionId="447e6ce8-2b60-480b-9add-4baf1c4cf605" testId="857bbf81-c201-722e-80a2-55a1721ce552" testName="Capitalize439" computerName="SOUVIKDXP001F" duration="00:00:00.0006609" startTime="2013-03-15T17:25:51.4180984+05:30" endTime="2013-03-15T17:25:51.4337239+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="447e6ce8-2b60-480b-9add-4baf1c4cf605">
+    </UnitTestResult>
+    <UnitTestResult executionId="6d118f95-cb74-4dd4-998c-e9b09fdfef2d" testId="9f32a9ae-e02c-81cb-f60b-a304fec5965a" testName="Capitalize426" computerName="SOUVIKDXP001F" duration="00:00:00.0006905" startTime="2013-03-15T17:25:51.4337239+05:30" endTime="2013-03-15T17:25:51.4337239+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d118f95-cb74-4dd4-998c-e9b09fdfef2d">
+    </UnitTestResult>
+    <UnitTestResult executionId="56cda1d8-2774-4c68-9517-09c8e4b39701" testId="6244c7a8-f694-792b-71e3-31800aa56da7" testName="Capitalize411" computerName="SOUVIKDXP001F" duration="00:00:00.0002352" startTime="2013-03-15T17:25:51.4337239+05:30" endTime="2013-03-15T17:25:51.4493494+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56cda1d8-2774-4c68-9517-09c8e4b39701">
+    </UnitTestResult>
+    <UnitTestResult executionId="dcbd9810-5582-440f-a472-7d1d4135f399" testId="1c305f0e-2122-82a0-fa35-359f2155ea13" testName="Capitalize393" computerName="SOUVIKDXP001F" duration="00:00:00.0006707" startTime="2013-03-15T17:25:51.4493494+05:30" endTime="2013-03-15T17:25:51.4493494+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dcbd9810-5582-440f-a472-7d1d4135f399">
+    </UnitTestResult>
+  </Results>
+</TestRun>

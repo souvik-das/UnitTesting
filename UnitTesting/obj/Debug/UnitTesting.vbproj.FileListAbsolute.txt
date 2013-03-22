@@ -1,0 +1,10 @@
+D:\UnitTesting\UnitTesting\bin\Debug\UnitTesting.dll
+D:\UnitTesting\UnitTesting\bin\Debug\UnitTesting.pdb
+D:\UnitTesting\UnitTesting\bin\Debug\UnitTesting.xml
+D:\UnitTesting\UnitTesting\obj\Debug\ResolveAssemblyReference.cache
+D:\UnitTesting\UnitTesting\obj\Debug\UnitTesting.Resources.resources
+D:\UnitTesting\UnitTesting\obj\Debug\GenerateResource.read.1.tlog
+D:\UnitTesting\UnitTesting\obj\Debug\GenerateResource.write.1.tlog
+D:\UnitTesting\UnitTesting\obj\Debug\UnitTesting.dll
+D:\UnitTesting\UnitTesting\obj\Debug\UnitTesting.xml
+D:\UnitTesting\UnitTesting\obj\Debug\UnitTesting.pdb

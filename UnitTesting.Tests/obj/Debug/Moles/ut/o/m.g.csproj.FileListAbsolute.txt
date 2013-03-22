@@ -1,0 +1,10 @@
+D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.Moles.xml
+D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.Moles.dll
+D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.Moles.pdb
+D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.dll
+D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.pdb
+D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.xml
+D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\o\ResolveAssemblyReference.cache
+D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\o\UnitTesting.Moles.rewritten
+D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\o\UnitTesting.Moles.dll
+D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\o\UnitTesting.Moles.pdb

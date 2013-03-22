@@ -1,0 +1,124 @@
+﻿<frameTree version="0.94.51023.0"><frameException type="System.InvalidOperationException"><tag exceptionState="expected"><generatedTestRef idref="38922c29-4262-4cbe-9792-4230b6df1384"/>
+</tag>
+<frameNode><frame value="  at UnitTestExampleTest.&lt;GetFileContent&gt;b__2(FileSystem, String) in D:\UnitTesting\UnitTesting.Tests\UnitTestExampleTest.cs(84)" method="UnitTestExampleTest.&lt;GetFileContent&gt;b__2(FileSystem, String)" offset="25" file="D:\UnitTesting\UnitTesting.Tests\UnitTestExampleTest.cs" line="84"><method assemblyName="UnitTesting.Tests" name="&lt;GetFileContent&gt;b__2" static="true" token="600000b"><declaringType assemblyName="UnitTesting.Tests" name="UnitTestExampleTest" token="2000002" namespace="UnitTesting.UnitTest"/>
+<parameter name="fs" position="0"><type spec="Class"><definition assemblyName="UnitTesting" name="FileSystem" token="2000009" namespace="UnitTesting.UnitTest"/>
+</type>
+</parameter>
+<parameter name="fName" position="1"><type spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</type>
+</parameter>
+<resultType spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</resultType>
+</method>
+<beforeSource><![CDATA[            MFileSystem.AllInstances.ReadAllTextString = (fs, fName) =>
+            {
+                if (fName == null)]]></beforeSource>
+<source><![CDATA[                    throw new InvalidOperationException("File Name Can't be NULL");]]></source>
+<afterSource><![CDATA[                else if (fName.Length == 0)
+                    throw new InvalidOperationException("Length of File Name Can't be Zero");
+                else]]></afterSource>
+</frame>
+<tag exceptionState="expected"><generatedTestRef idref="38922c29-4262-4cbe-9792-4230b6df1384"/>
+</tag>
+<frameNode><frame value="  at FileSystem.ReadAllText(String) in D:\UnitTesting\UnitTesting\FileSystem.vb(7)" method="FileSystem.ReadAllText(String)" offset="0" file="D:\UnitTesting\UnitTesting\FileSystem.vb" line="7"><method assemblyName="UnitTesting" name="ReadAllText" token="6000021"><declaringType assemblyName="UnitTesting" name="FileSystem" token="2000009" namespace="UnitTesting.UnitTest"/>
+<parameter this="true" name="this" position="0"><type spec="Class"><definition assemblyName="UnitTesting" name="FileSystem" token="2000009" namespace="UnitTesting.UnitTest"/>
+</type>
+</parameter>
+<parameter name="fileName" position="1"><type spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</type>
+</parameter>
+<resultType spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</resultType>
+</method>
+<beforeSource><![CDATA[
+    Public Class FileSystem
+]]></beforeSource>
+<source><![CDATA[        Public Function ReadAllText(ByVal fileName As String) As String]]></source>
+<afterSource><![CDATA[            Return File.ReadAllText(fileName)
+        End Function
+]]></afterSource>
+</frame>
+<tag exceptionState="expected"><generatedTestRef idref="38922c29-4262-4cbe-9792-4230b6df1384"/>
+</tag>
+<frameNode><frame value="  at UnitTestExample.GetFileContent(String) in D:\UnitTesting\UnitTesting\UnitTestExample.vb(56)" method="UnitTestExample.GetFileContent(String)" offset="9" file="D:\UnitTesting\UnitTesting\UnitTestExample.vb" line="56"><method assemblyName="UnitTesting" name="GetFileContent" static="true" token="600002f"><declaringType assemblyName="UnitTesting" name="UnitTestExample" token="200000f" namespace="UnitTesting.UnitTest"/>
+<parameter name="fileName" position="0"><type spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</type>
+</parameter>
+<resultType spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</resultType>
+</method>
+<beforeSource><![CDATA[            Dim content As String
+            Dim fs As New FileSystem()
+            'Instance function used for showing usage of Moles type Mocking]]></beforeSource>
+<source><![CDATA[            content = fs.ReadAllText(fileName)]]></source>
+<afterSource><![CDATA[            Return content
+        End Function
+]]></afterSource>
+</frame>
+<tag exceptionState="expected"><generatedTestRef idref="38922c29-4262-4cbe-9792-4230b6df1384"/>
+</tag>
+</frameNode>
+</frameNode>
+</frameNode>
+<frameNode><frame value="  at UnitTestExampleTest.&lt;GetFileContent&gt;b__2(FileSystem, String) in D:\UnitTesting\UnitTesting.Tests\UnitTestExampleTest.cs(86)" method="UnitTestExampleTest.&lt;GetFileContent&gt;b__2(FileSystem, String)" offset="55" file="D:\UnitTesting\UnitTesting.Tests\UnitTestExampleTest.cs" line="86"><method assemblyName="UnitTesting.Tests" name="&lt;GetFileContent&gt;b__2" static="true" token="600000b"><declaringType assemblyName="UnitTesting.Tests" name="UnitTestExampleTest" token="2000002" namespace="UnitTesting.UnitTest"/>
+<parameter name="fs" position="0"><type spec="Class"><definition assemblyName="UnitTesting" name="FileSystem" token="2000009" namespace="UnitTesting.UnitTest"/>
+</type>
+</parameter>
+<parameter name="fName" position="1"><type spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</type>
+</parameter>
+<resultType spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</resultType>
+</method>
+<beforeSource><![CDATA[                if (fName == null)
+                    throw new InvalidOperationException("File Name Can't be NULL");
+                else if (fName.Length == 0)]]></beforeSource>
+<source><![CDATA[                    throw new InvalidOperationException("Length of File Name Can't be Zero");]]></source>
+<afterSource><![CDATA[                else
+                    return fName;
+            };]]></afterSource>
+</frame>
+<tag exceptionState="expected"><generatedTestRef idref="c0bfc693-0e06-4665-a23f-296ffd8f0ae8"/>
+</tag>
+<frameNode><frame value="  at FileSystem.ReadAllText(String) in D:\UnitTesting\UnitTesting\FileSystem.vb(7)" method="FileSystem.ReadAllText(String)" offset="0" file="D:\UnitTesting\UnitTesting\FileSystem.vb" line="7"><method assemblyName="UnitTesting" name="ReadAllText" token="6000021"><declaringType assemblyName="UnitTesting" name="FileSystem" token="2000009" namespace="UnitTesting.UnitTest"/>
+<parameter this="true" name="this" position="0"><type spec="Class"><definition assemblyName="UnitTesting" name="FileSystem" token="2000009" namespace="UnitTesting.UnitTest"/>
+</type>
+</parameter>
+<parameter name="fileName" position="1"><type spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</type>
+</parameter>
+<resultType spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</resultType>
+</method>
+<beforeSource><![CDATA[
+    Public Class FileSystem
+]]></beforeSource>
+<source><![CDATA[        Public Function ReadAllText(ByVal fileName As String) As String]]></source>
+<afterSource><![CDATA[            Return File.ReadAllText(fileName)
+        End Function
+]]></afterSource>
+</frame>
+<tag exceptionState="expected"><generatedTestRef idref="c0bfc693-0e06-4665-a23f-296ffd8f0ae8"/>
+</tag>
+<frameNode><frame value="  at UnitTestExample.GetFileContent(String) in D:\UnitTesting\UnitTesting\UnitTestExample.vb(56)" method="UnitTestExample.GetFileContent(String)" offset="9" file="D:\UnitTesting\UnitTesting\UnitTestExample.vb" line="56"><method assemblyName="UnitTesting" name="GetFileContent" static="true" token="600002f"><declaringType assemblyName="UnitTesting" name="UnitTestExample" token="200000f" namespace="UnitTesting.UnitTest"/>
+<parameter name="fileName" position="0"><type spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</type>
+</parameter>
+<resultType spec="Class"><definition assemblyName="mscorlib" name="String" token="200004e" namespace="System"/>
+</resultType>
+</method>
+<beforeSource><![CDATA[            Dim content As String
+            Dim fs As New FileSystem()
+            'Instance function used for showing usage of Moles type Mocking]]></beforeSource>
+<source><![CDATA[            content = fs.ReadAllText(fileName)]]></source>
+<afterSource><![CDATA[            Return content
+        End Function
+]]></afterSource>
+</frame>
+<tag exceptionState="expected"><generatedTestRef idref="c0bfc693-0e06-4665-a23f-296ffd8f0ae8"/>
+</tag>
+</frameNode>
+</frameNode>
+</frameNode>
+</frameException>
+</frameTree>

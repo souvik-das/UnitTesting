@@ -1,0 +1,247 @@
+﻿<documents created="2013-03-15 11:50:10Z"><document src="D:\UnitTesting\UnitTesting.Tests\UnitTestExampleTest.cs" renderPrefix="s0"><chunk hits="-1" domain="unknown"><source><![CDATA[// <copyright file="UnitTestExampleTest.cs">Copyright �  2013</copyright>
+
+using System;
+using Microsoft.Pex.Framework;
+using Microsoft.Pex.Framework.Validation;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using UnitTesting.UnitTest;
+using System.Linq;
+
+using UnitTesting.UnitTest.Moles;
+
+namespace UnitTesting.UnitTest
+{
+    [TestClass]
+    [PexClass(typeof(UnitTestExample))]
+    [PexAllowedExceptionFromTypeUnderTest(typeof(ArgumentException), AcceptExceptionSubtypes = true)]
+    [PexAllowedExceptionFromTypeUnderTest(typeof(InvalidOperationException))]
+    public partial class UnitTestExampleTest
+    {
+        [PexMethod] //Parameterized Unit Testing using PEX
+        public string Capitalize(string value)
+        ]]></source>
+</chunk>
+<method name="Capitalize" namespace="UnitTesting.UnitTest" type="UnitTesting.UnitTest.UnitTestExampleTest" typeName="UnitTestExampleTest" token="6000001" module="UnitTesting.Tests.dll"><hits><hit index="0" value="1"/>
+<hit index="1" value="1"/>
+<hit index="2" value="1"/>
+<hit index="3" value="1"/>
+</hits>
+<coverage domain="userortestcode" unit="block" covered="2" total="2" coveredRatio="1"/>
+</method>
+<chunk hits="1" offset="0000" domain="userortestcode"><source><![CDATA[{]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="1" offset="0001" domain="userortestcode"><source><![CDATA[string result = UnitTestExample.Capitalize(value);]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            ]]></source>
+</chunk>
+<chunk hits="1" offset="0008" domain="userortestcode"><source><![CDATA[return result;]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+            // TODO: add assertions to method UnitTestExampleTest.Capitalize(String)
+        ]]></source>
+</chunk>
+<chunk hits="1" offset="000f" domain="userortestcode"><source><![CDATA[}]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+
+
+        [PexMethod] //Parameterized Unit Testing with Assertion using PEX
+        public void CapitalizeMaintainsLettersCount(string input)
+        {
+            string output = UnitTestExample.Capitalize(input);
+            PexAssert.AreEqual(
+            LettersCount(input),
+            LettersCount(output));
+        }
+
+        [PexMethod] //Parameterized Unit Testing with Assertion using PEX
+        public void CapitalizeWillNotCapitalizeAgain(string input)
+        {
+            string capitalized = UnitTestExample.Capitalize(input);
+            string capitalizedAgain = UnitTestExample.Capitalize(capitalized);
+            PexAssert.AreEqual(capitalized, capitalizedAgain);
+        }
+
+        [PexMethod] //Parameterized Unit Testing with Assertion using PEX
+        public void CapitalizeReturnsOnlyLettersAndUnderscores(string input)
+        {
+            string output = UnitTestExample.Capitalize(input);
+            PexAssert.TrueForAll(output, IsLetterOrUnderscore);
+        }
+
+        [PexMethod, PexAllowedException(typeof(InvalidOperationException))] //Stub Type Mocking
+        public void GetFileContentUsingInterface(string fileName)
+        {
+            //Arrange
+            var Ifs = new SIFileSystem();
+            Ifs.ReadAllTextString = fName =>
+            {
+                if (fName == null)
+                    throw new InvalidOperationException("File Name Can't be NULL");
+                else if (fName.Length == 0)
+                    throw new InvalidOperationException("Length of File Name Can't be Zero");
+                else
+                    return fName;
+            };
+
+            //Act
+            var test = new UnitTestExample(Ifs);
+            string result = test.GetFileContentUsingInterface(fileName);
+
+            //Assert
+            PexAssert.AreEqual(fileName, result);
+
+        }
+
+        [PexMethod, PexAllowedException(typeof(InvalidOperationException))] //Mole Type Mocking
+        public void GetFileContent(string fileName)
+        {
+            //Arrange
+            MFileSystem.AllInstances.ReadAllTextString = (fs, fName) =>
+            {
+                if (fName == null)
+                    throw new InvalidOperationException("File Name Can't be NULL");
+                else if (fName.Length == 0)
+                    throw new InvalidOperationException("Length of File Name Can't be Zero");
+                else
+                    return fName;
+            };
+
+            //Act
+            string result = UnitTestExample.GetFileContent(fileName);
+
+            //Assert
+            PexAssert.AreEqual(fileName, result);
+
+        }
+
+        private static int LettersCount(string s)
+        {
+            return Enumerable.Count(s, char.IsLetter);
+        }       
+
+        private static bool IsLetterOrUnderscore(char c)
+        {
+            return char.IsLetter(c) || c == '_';
+        }
+    }
+}
+]]></source>
+</chunk>
+</document>
+<document src="D:\UnitTesting\UnitTesting\UnitTestExample.vb" renderPrefix="s1"><chunk hits="-1" domain="unknown"><source><![CDATA[Imports System.Text
+
+Namespace UnitTest
+
+    Public Class UnitTestExample
+
+        'Static Method
+        ]]></source>
+</chunk>
+<method name="Capitalize" namespace="UnitTesting.UnitTest" type="UnitTesting.UnitTest.UnitTestExample" typeName="UnitTestExample" token="600002c" module="UnitTesting.dll"><hits><hit index="0" value="1"/>
+<hit index="1" value="1"/>
+<hit index="2" value="1"/>
+<hit index="4" value="1"/>
+<hit index="5" value="1"/>
+<hit index="6" value="1"/>
+<hit index="8" value="1"/>
+<hit index="9" value="1"/>
+<hit index="10" value="6"/>
+<hit index="11" value="6"/>
+<hit index="12" value="6"/>
+<hit index="13" value="3"/>
+<hit index="14" value="2"/>
+<hit index="15" value="2"/>
+<hit index="16" value="2"/>
+<hit index="17" value="2"/>
+<hit index="18" value="2"/>
+<hit index="19" value="2"/>
+<hit index="20" value="2"/>
+<hit index="21" value="4"/>
+<hit index="22" value="4"/>
+<hit index="23" value="2"/>
+<hit index="24" value="2"/>
+<hit index="25" value="2"/>
+<hit index="26" value="6"/>
+<hit index="27" value="1"/>
+<hit index="28" value="1"/>
+<hit index="29" value="1"/>
+<hit index="30" value="1"/>
+<hit index="31" value="2"/>
+<hit index="32" value="1"/>
+<hit index="33" value="4"/>
+<hit index="34" value="2"/>
+<hit index="35" value="2"/>
+<hit index="36" value="6"/>
+<hit index="39" value="1"/>
+</hits>
+<coverage domain="usercodeundertest" unit="block" covered="20" total="20" coveredRatio="1"/>
+</method>
+<chunk hits="1" offset="0000" domain="usercodeundertest"><source><![CDATA[Public Shared Function Capitalize(ByVal value As String) As String]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+
+            'Adding Pre-Condition (Added to instruct PEX NullReferenceException is a expected exception if NULL value is passed to this method)
+            ]]></source>
+</chunk>
+<chunk hits="1" offset="0001" domain="usercodeundertest"><source><![CDATA[If value Is Nothing Then]]></source>
+</chunk>
+<chunk hits="-1" domain="unknown"><source><![CDATA[
+                Throw New ArgumentNullException("value")
+            End If
+
+            Dim sb = New StringBuilder()
+            Dim word As Boolean = False
+            'word
+            For Each c As Char In value
+                If Char.IsLetter(c) Then
+                    If Not word Then
+                        sb.Append(Char.ToUpper(c))
+                        word = True
+                    Else
+                        sb.Append(c)
+                    End If
+                Else
+
+                    If Char.IsPunctuation(c) Then
+                        sb.Append("_"c)
+                    End If
+                    word = False
+                End If
+            Next
+            Return sb.ToString()
+
+        End Function
+
+        'Shared Function
+        Public Shared Function GetFileContent(ByVal fileName As String) As String
+            Dim content As String
+            Dim fs As New FileSystem()
+            'Instance function used for showing usage of Moles type Mocking
+            content = fs.ReadAllText(fileName)
+            Return content
+        End Function
+
+        Dim Ifs As IFileSystem
+        'Class Constructor with Dependency Injection
+        Public Sub New(ByVal fs As IFileSystem)
+            Me.Ifs = fs
+        End Sub
+
+        'Instance Function used for showing usage of Stub type Mocking
+        Public Function GetFileContentUsingInterface(ByVal fileName As String) As String
+            Dim content As String
+            content = Me.Ifs.ReadAllText(fileName)
+            Return content
+        End Function
+
+    End Class
+
+End Namespace]]></source>
+</chunk>
+</document>
+</documents>
