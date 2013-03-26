@@ -8,3 +8,12 @@ D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\o\ResolveAssemblyReference.c
 D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\o\UnitTesting.Moles.rewritten
 D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\o\UnitTesting.Moles.dll
 D:\UnitTesting\UnitTesting.Tests\obj\Debug\Moles\ut\o\UnitTesting.Moles.pdb
+C:\Users\Administrator\.jenkins\jobs\UnitTesting\workspace\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.Moles.xml
+C:\Users\Administrator\.jenkins\jobs\UnitTesting\workspace\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.Moles.dll
+C:\Users\Administrator\.jenkins\jobs\UnitTesting\workspace\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.Moles.pdb
+C:\Users\Administrator\.jenkins\jobs\UnitTesting\workspace\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.dll
+C:\Users\Administrator\.jenkins\jobs\UnitTesting\workspace\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.pdb
+C:\Users\Administrator\.jenkins\jobs\UnitTesting\workspace\UnitTesting.Tests\obj\Debug\Moles\ut\b\UnitTesting.xml
+C:\Users\Administrator\.jenkins\jobs\UnitTesting\workspace\UnitTesting.Tests\obj\Debug\Moles\ut\o\ResolveAssemblyReference.cache
+C:\Users\Administrator\.jenkins\jobs\UnitTesting\workspace\UnitTesting.Tests\obj\Debug\Moles\ut\o\UnitTesting.Moles.dll
+C:\Users\Administrator\.jenkins\jobs\UnitTesting\workspace\UnitTesting.Tests\obj\Debug\Moles\ut\o\UnitTesting.Moles.pdb

@@ -3,7 +3,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
-    <ProjectGuid>854db825-d3dd-475e-8a85-6c81a984d835</ProjectGuid>
+    <ProjectGuid>d2811bd1-e8d4-413b-8f5c-0d0aefd081cb</ProjectGuid>
     <!-- update GUID here -->
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -49,19 +49,20 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="UnitTesting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>D:\UnitTesting\UnitTesting\bin\Debug\UnitTesting.dll</HintPath>
+      <HintPath>C:\Users\Administrator\.jenkins\jobs\UnitTesting\workspace\UnitTesting\bin\Debug\UnitTesting.dll</HintPath>
       <Aliases>ut</Aliases>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.Pex.Framework">
+      <HintPath>C:\Program Files\Microsoft Moles\PublicAssemblies\Microsoft.Pex.Framework.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.Pex.Linq">
-      <HintPath>D:\Program Files\Microsoft Pex\PublicAssemblies\Microsoft.Pex.Linq.dll</HintPath>
+      <HintPath>C:\Program Files\Microsoft Pex\PublicAssemblies\Microsoft.Pex.Linq.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
-      <HintPath>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
+      <HintPath>c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System.Core">
