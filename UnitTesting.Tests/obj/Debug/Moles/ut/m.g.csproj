@@ -3,7 +3,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
-    <ProjectGuid>854db825-d3dd-475e-8a85-6c81a984d835</ProjectGuid>
+    <ProjectGuid>2843dcb8-30e7-4fca-a19d-c7faa0f7320e</ProjectGuid>
     <!-- update GUID here -->
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -65,6 +65,12 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System.Core">
+      <SpecificVersion>False</SpecificVersion>
+      <CopyLocal>False</CopyLocal>
+      <Aliases>global</Aliases>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Data">
       <SpecificVersion>False</SpecificVersion>
       <CopyLocal>False</CopyLocal>
       <Aliases>global</Aliases>

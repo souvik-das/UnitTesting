@@ -49,6 +49,7 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data" />
     <Reference Include="UnitTesting.Moles, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +88,10 @@
   </ItemGroup>
   <ItemGroup>
     <Moles Include="UnitTesting.moles" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="TestData\Tickets_Internal.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

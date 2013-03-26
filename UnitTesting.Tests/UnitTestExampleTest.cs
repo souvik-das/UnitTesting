@@ -17,6 +17,28 @@ namespace UnitTesting.UnitTest
     [PexAllowedExceptionFromTypeUnderTest(typeof(InvalidOperationException))]
     public partial class UnitTestExampleTest
     {
+        /// <summary>
+        /// The TestContext Instance
+        /// </summary>
+        private TestContext testContextInstance;
+
+        /// <summary>
+        ///Gets or sets the test context which provides
+        ///information about and functionality for the current test 
+        ///run.
+        ///</summary>
+        public TestContext TestContext
+        {
+            get
+            {
+                return testContextInstance;
+            }
+            set
+            {
+                testContextInstance = value;
+            }
+        }
+
         [PexMethod] //Parameterized Unit Testing using PEX
         public string Capitalize(string value)
         {
@@ -104,6 +126,13 @@ namespace UnitTesting.UnitTest
         private static bool IsLetterOrUnderscore(char c)
         {
             return char.IsLetter(c) || c == '_';
+        }
+
+        [TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\Tickets_Internal.csv", "Tickets_Internal#csv", DataAccessMethod.Sequential), DeploymentItem("UnitTesting.Tests\\TestData\\Tickets_Internal.csv")]
+        public void MyDataDrivenTestMethod()
+        {
+            string ticket_ID = testContextInstance.DataRow["TK_ID"].ToString();
         }
     }
 }
