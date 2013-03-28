@@ -3,11 +3,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
-<<<<<<< HEAD
-    <ProjectGuid>2843dcb8-30e7-4fca-a19d-c7faa0f7320e</ProjectGuid>
-=======
-    <ProjectGuid>382db4ae-9194-478e-9d82-ac43f0f2d208</ProjectGuid>
->>>>>>> f9bcb726bbbacc0c5954795373c18a1647a93a02
+    <ProjectGuid>d90b17f7-f3f5-477f-acfc-c123f6bdc2c8</ProjectGuid>
     <!-- update GUID here -->
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -53,20 +49,19 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="UnitTesting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>C:\Users\Administrator\.jenkins\jobs\UnitTesting\workspace\UnitTesting\bin\Debug\UnitTesting.dll</HintPath>
+      <HintPath>D:\UnitTesting\UnitTesting\bin\Debug\UnitTesting.dll</HintPath>
       <Aliases>ut</Aliases>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.Pex.Framework">
-      <HintPath>C:\Program Files\Microsoft Moles\PublicAssemblies\Microsoft.Pex.Framework.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.Pex.Linq">
-      <HintPath>C:\Program Files\Microsoft Pex\PublicAssemblies\Microsoft.Pex.Linq.dll</HintPath>
+      <HintPath>D:\Program Files\Microsoft Pex\PublicAssemblies\Microsoft.Pex.Linq.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
-      <HintPath>c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
+      <HintPath>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System.Core">
