@@ -128,11 +128,13 @@ namespace UnitTesting.UnitTest
             return char.IsLetter(c) || c == '_';
         }
 
-        [TestMethod]
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\Tickets_Internal.csv", "Tickets_Internal#csv", DataAccessMethod.Sequential), DeploymentItem("UnitTesting.Tests\\TestData\\Tickets_Internal.csv")]
-        public void MyDataDrivenTestMethod()
+        [DeploymentItem("UnitTesting.Tests\\TestData\\AddData.csv"), TestMethod]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV", "|DataDirectory|\\AddData.csv", "AddData#csv", DataAccessMethod.Sequential)]
+        public void TestAddMethod()
         {
-            string ticket_ID = testContextInstance.DataRow["TK_ID"].ToString();
+            int outputActual = UnitTestExample.Add(Convert.ToInt32(TestContext.DataRow["Int1"].ToString()), Convert.ToInt32(TestContext.DataRow["Int2"].ToString()));
+            int outputExpected = Convert.ToInt32(TestContext.DataRow["Output"].ToString());
+            Assert.AreEqual<int>(outputExpected, outputActual, "Failed unit test for int1 = {0}, int2 = {1}. Output Expected = {2} , Output Actual = {3}", TestContext.DataRow["Int1"].ToString(), TestContext.DataRow["Int2"].ToString(), TestContext.DataRow["Output"].ToString(), outputActual.ToString());
         }
     }
 }

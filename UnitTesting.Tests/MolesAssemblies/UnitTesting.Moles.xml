@@ -91,6 +91,10 @@
         <member name="M:UnitTesting.UnitTest.Moles.MUnitTestExample.BehaveAsNotImplemented">
             <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
         </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MUnitTestExample.AddInt32Int32">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.UnitTestExample.Add(System.Int32,System.Int32)"/>
+            </summary>
+        </member>
         <member name="P:UnitTesting.UnitTest.Moles.MUnitTestExample.Behavior">
             <summary>Assigns the behavior for all methods of the moled type</summary>
         </member>

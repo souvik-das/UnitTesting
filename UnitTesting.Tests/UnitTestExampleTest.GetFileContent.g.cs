@@ -19,9 +19,16 @@ namespace UnitTesting.UnitTest
     {
 [TestMethod]
 [PexGeneratedBy(typeof(UnitTestExampleTest))]
+[HostType("Moles")]
+public void GetFileContent206()
+{
+    this.GetFileContent("\0");
+}
+[TestMethod]
+[PexGeneratedBy(typeof(UnitTestExampleTest))]
 [ExpectedException(typeof(InvalidOperationException))]
 [HostType("Moles")]
-public void GetFileContentThrowsInvalidOperationException289()
+public void GetFileContentThrowsInvalidOperationException84()
 {
     this.GetFileContent((string)null);
 }
@@ -29,16 +36,9 @@ public void GetFileContentThrowsInvalidOperationException289()
 [PexGeneratedBy(typeof(UnitTestExampleTest))]
 [ExpectedException(typeof(InvalidOperationException))]
 [HostType("Moles")]
-public void GetFileContentThrowsInvalidOperationException872()
+public void GetFileContentThrowsInvalidOperationException19()
 {
     this.GetFileContent("");
-}
-[TestMethod]
-[PexGeneratedBy(typeof(UnitTestExampleTest))]
-[HostType("Moles")]
-public void GetFileContent206()
-{
-    this.GetFileContent("\0");
 }
     }
 }

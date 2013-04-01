@@ -20,14 +20,14 @@ namespace UnitTesting.UnitTest
 [TestMethod]
 [PexGeneratedBy(typeof(UnitTestExampleTest))]
 [ExpectedException(typeof(InvalidOperationException))]
-public void GetFileContentUsingInterfaceThrowsInvalidOperationException870()
+public void GetFileContentUsingInterfaceThrowsInvalidOperationException240()
 {
     this.GetFileContentUsingInterface((string)null);
 }
 [TestMethod]
 [PexGeneratedBy(typeof(UnitTestExampleTest))]
 [ExpectedException(typeof(InvalidOperationException))]
-public void GetFileContentUsingInterfaceThrowsInvalidOperationException909()
+public void GetFileContentUsingInterfaceThrowsInvalidOperationException431()
 {
     this.GetFileContentUsingInterface("");
 }

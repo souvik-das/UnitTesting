@@ -57,6 +57,11 @@ Namespace UnitTest
             Return content
         End Function
 
+        'Example of Data Driven Test Method
+        Public Shared Function Add(ByVal int1 As Integer, ByVal int2 As Integer) As Integer
+            Return int1 + int2
+        End Function
+
     End Class
 
 End Namespace

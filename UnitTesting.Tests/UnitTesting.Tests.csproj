@@ -89,9 +89,8 @@
   <ItemGroup>
     <Moles Include="UnitTesting.moles" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="TestData\Tickets_Internal.csv" />
+    <None Include="TestData\AddData.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

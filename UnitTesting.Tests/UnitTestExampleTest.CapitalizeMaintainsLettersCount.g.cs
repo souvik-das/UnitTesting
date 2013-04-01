@@ -20,7 +20,7 @@ namespace UnitTesting.UnitTest
 [TestMethod]
 [PexGeneratedBy(typeof(UnitTestExampleTest))]
 [ExpectedException(typeof(ArgumentNullException))]
-public void CapitalizeMaintainsLettersCountThrowsArgumentNullException456()
+public void CapitalizeMaintainsLettersCountThrowsArgumentNullException125()
 {
     this.CapitalizeMaintainsLettersCount((string)null);
 }

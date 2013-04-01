@@ -20,7 +20,7 @@ namespace UnitTesting.UnitTest
 [TestMethod]
 [PexGeneratedBy(typeof(UnitTestExampleTest))]
 [ExpectedException(typeof(ArgumentNullException))]
-public void CapitalizeWillNotCapitalizeAgainThrowsArgumentNullException94()
+public void CapitalizeWillNotCapitalizeAgainThrowsArgumentNullException150()
 {
     this.CapitalizeWillNotCapitalizeAgain((string)null);
 }
