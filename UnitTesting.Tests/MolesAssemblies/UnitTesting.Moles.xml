@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnitTesting.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:UnitTesting.UnitTest.Moles.MFileSystem">
+            <summary>Mole type of <see cref="T:UnitTesting.UnitTest.FileSystem"/>
+            .</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MFileSystem.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MFileSystem.#ctor(UnitTesting.UnitTest.FileSystem)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MFileSystem.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MFileSystem.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MFileSystem.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MFileSystem.Constructor">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.FileSystem.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MFileSystem.ReadAllTextString">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.FileSystem.ReadAllText(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:UnitTesting.UnitTest.Moles.MFileSystem.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MFileSystem.AllInstances.ReadAllTextString">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.FileSystem.ReadAllText(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:UnitTesting.UnitTest.Moles.MFileSystemUsingInterface">
+            <summary>Mole type of <see cref="T:UnitTesting.UnitTest.FileSystemUsingInterface"/>
+            .</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MFileSystemUsingInterface.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MFileSystemUsingInterface.#ctor(UnitTesting.UnitTest.FileSystemUsingInterface)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MFileSystemUsingInterface.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MFileSystemUsingInterface.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MFileSystemUsingInterface.Bind(UnitTesting.UnitTest.IFileSystem)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MFileSystemUsingInterface.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MFileSystemUsingInterface.Constructor">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.FileSystemUsingInterface.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MFileSystemUsingInterface.ReadAllTextString">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.FileSystemUsingInterface.ReadAllText(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:UnitTesting.UnitTest.Moles.MFileSystemUsingInterface.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MFileSystemUsingInterface.AllInstances.ReadAllTextString">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.FileSystemUsingInterface.ReadAllText(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:UnitTesting.UnitTest.Moles.MUnitTestExample">
+            <summary>Mole type of <see cref="T:UnitTesting.UnitTest.UnitTestExample"/>
+            .</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MUnitTestExample.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MUnitTestExample.#ctor(UnitTesting.UnitTest.UnitTestExample)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MUnitTestExample.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.MUnitTestExample.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MUnitTestExample.AddInt32Int32">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.UnitTestExample.Add(System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MUnitTestExample.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MUnitTestExample.CapitalizeString">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.UnitTestExample.Capitalize(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MUnitTestExample.ConstructorIFileSystem">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.UnitTestExample.#ctor(UnitTesting.UnitTest.IFileSystem)"/>
+            </summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MUnitTestExample.GetFileContentString">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.UnitTestExample.GetFileContent(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MUnitTestExample.GetFileContentUsingInterfaceString">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.UnitTestExample.GetFileContentUsingInterface(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:UnitTesting.UnitTest.Moles.MUnitTestExample.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.MUnitTestExample.AllInstances.GetFileContentUsingInterfaceString">
+            <summary>Sets the mole of <see cref="M:UnitTesting.UnitTest.UnitTestExample.GetFileContentUsingInterface(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:UnitTesting.UnitTest.Moles.SFileSystem">
+            <summary>Stub type of <see cref="T:UnitTesting.UnitTest.FileSystem"/>
+            .</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.SFileSystem.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.SFileSystem.InitializeStub">
+            <summary>Initializes a new instance of type SFileSystem</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.SFileSystem.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.SFileSystem.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:UnitTesting.UnitTest.Moles.SFileSystemUsingInterface">
+            <summary>Stub type of <see cref="T:UnitTesting.UnitTest.FileSystemUsingInterface"/>
+            .</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.SFileSystemUsingInterface.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.SFileSystemUsingInterface.InitializeStub">
+            <summary>Initializes a new instance of type SFileSystemUsingInterface</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.SFileSystemUsingInterface.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.SFileSystemUsingInterface.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:UnitTesting.UnitTest.Moles.SIFileSystem">
+            <summary>Stub type of <see cref="T:UnitTesting.UnitTest.IFileSystem"/>
+            .</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.SIFileSystem.#ctor">
+            <summary>Initializes a new instance of type SIFileSystem</summary>
+        </member>
+        <member name="F:UnitTesting.UnitTest.Moles.SIFileSystem.ReadAllTextString">
+            <summary>Sets the stub of <see cref="M:UnitTesting.UnitTest.IFileSystem.ReadAllText(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.SIFileSystem.ut::UnitTesting#UnitTest#IFileSystem#ReadAllText(System.String)">
+            <summary>Sets the stub of <see cref="M:UnitTesting.UnitTest.IFileSystem.ReadAllText(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:UnitTesting.UnitTest.Moles.SUnitTestExample">
+            <summary>Stub type of <see cref="T:UnitTesting.UnitTest.UnitTestExample"/>
+            .</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.SUnitTestExample.#ctor(UnitTesting.UnitTest.IFileSystem)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:UnitTesting.UnitTest.Moles.SUnitTestExample.InitializeStub">
+            <summary>Initializes a new instance of type SUnitTestExample</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.SUnitTestExample.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:UnitTesting.UnitTest.Moles.SUnitTestExample.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Summary numSequencePoints="82" visitedSequencePoints="35" numBranchPoints="32" visitedBranchPoints="14" sequenceCoverage="42.68" branchCoverage="43.75" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="F2-B7-6C-91-B2-2A-27-1D-84-DA-D8-01-19-1B-74-D3-A8-5B-ED-15">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</FullName>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="69-FA-36-8C-34-2E-86-DF-D0-A9-F9-D5-D6-F7-AE-FC-7C-96-72-40">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\MSTest.exe</FullName>
+      <ModuleName>MSTest</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="7F-A5-AE-CF-ED-6F-7D-0D-8F-C6-45-30-15-FC-87-10-34-FB-4A-FA">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Common\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Common.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9B-83-91-0F-3E-E6-E8-C7-49-27-E1-63-6D-0E-97-8C-FF-6F-F7-3E">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</FullName>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A5-90-5C-39-94-8B-E5-95-8A-19-B9-3A-6A-A0-18-C5-2A-66-55-FA">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.ExecutionCommon\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.ExecutionCommon</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="60-82-A2-88-3C-08-B0-01-02-54-77-46-C8-76-C9-DD-28-CE-58-0F">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Resource\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Resource.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Resource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6A-CB-9C-23-A1-28-3F-24-11-C3-EA-99-78-1C-2D-0A-DE-D5-1F-6E">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</FullName>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1F-14-6C-92-91-EA-87-77-F2-51-33-42-61-B8-05-25-BA-D7-8B-97">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</FullName>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="BF-25-2F-2D-9C-93-63-C7-10-D2-E5-E7-8A-58-EB-22-5B-0C-F5-0F">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.CommandLine\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.CommandLine.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.CommandLine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9A-CB-E7-4C-5E-E0-2F-9C-80-50-EA-6E-B0-55-DF-B1-F4-E2-B2-67">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.TMI\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.TMI.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.TMI</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="81-BC-DD-72-CF-CF-F9-EF-C9-5F-BD-B5-9C-2A-C7-56-DE-B4-E8-CC">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</FullName>
+      <ModuleName>System.Data</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6C-D3-89-1E-68-D0-2B-E1-55-5E-9D-EF-34-D3-92-2F-4B-A3-84-31">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll</FullName>
+      <ModuleName>System.Numerics</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-91-68-9D-F2-E7-D6-A2-9B-A4-46-42-0A-EF-65-E5-6E-CC-62-4F">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</FullName>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-BF-00-07-68-F0-67-0D-7B-DB-71-9B-DC-C8-1B-72-6F-60-C2-5A">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</FullName>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="AF-05-8D-43-E3-DA-AB-39-5E-1C-C1-7D-03-30-C2-CD-51-4C-F7-2E">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="69-41-C9-20-C1-3A-B7-51-98-17-EC-39-A1-8F-53-84-00-1B-8E-F7">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.LoadTest.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.LoadTest</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="E0-8E-6B-E2-18-27-90-34-28-81-8B-E3-41-6E-3B-B2-EE-88-2A-1E">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.WebTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.WebTestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="70-0C-80-41-7B-A9-6E-D6-6D-57-D4-7E-90-9D-53-BE-EF-10-D1-31">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Tip</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="1A-8E-7F-63-79-81-73-62-C8-B6-77-39-F8-97-1B-CB-6B-2B-67-76">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.UnitTestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="80-83-D7-68-B9-05-69-D4-15-D7-0A-56-CE-97-EC-B1-74-25-80-E8">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.CodedUITestFramework.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.CodedUITestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="FA-A3-AD-A2-E7-72-E7-AD-68-51-0A-77-5C-A9-4E-CA-0B-C6-B4-80">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.Tips.WebLoadTest.Tip.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.WebLoadTest.Tip</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="BD-91-25-5D-5B-40-91-44-C6-CC-30-E7-84-09-1F-EC-32-46-EF-F1">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.AssemblyResolver</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A8-7F-84-A7-C1-DE-39-22-31-83-9A-4E-80-06-7E-8F-AB-65-62-72">
+      <FullName>D:\UnitTesting\UnitTesting.Tests\bin\Debug\UnitTesting.Tests.dll</FullName>
+      <ModuleName>UnitTesting.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="88-AB-AE-F7-E6-84-BC-D6-53-59-99-70-9C-28-DE-FC-83-65-34-B9">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Pex.Framework\0.94.0.0__31bf3856ad364e35\Microsoft.Pex.Framework.dll</FullName>
+      <ModuleName>Microsoft.Pex.Framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A3-33-92-AE-CF-29-9E-CF-43-C1-3C-26-C9-52-77-41-36-BB-1C-6B">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.ExtendedReflection\0.94.0.0__31bf3856ad364e35\Microsoft.ExtendedReflection.dll</FullName>
+      <ModuleName>Microsoft.ExtendedReflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="31-12-49-D2-8C-CC-CD-5C-D6-46-D4-03-09-2C-91-71-AB-C9-C9-00">
+      <Summary numSequencePoints="41" visitedSequencePoints="30" numBranchPoints="16" visitedBranchPoints="13" sequenceCoverage="73.17" branchCoverage="81.25" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" />
+      <FullName>D:\UnitTesting\UnitTesting.Tests\bin\Debug\UnitTesting.dll</FullName>
+      <ModuleName>UnitTesting</ModuleName>
+      <Files>
+        <File uid="1" fullPath="D:\UnitTesting\UnitTesting\FileSystem.vb" />
+        <File uid="2" fullPath="D:\UnitTesting\UnitTesting\FileSystemUsingInterface.vb" />
+        <File uid="3" fullPath="D:\UnitTesting\UnitTesting\UnitTestExample.vb" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MyApplication</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MyComputer</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MyProject</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MyProject/MyWebServices</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MyProject/ThreadSafeObjectProvider`1</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.InternalXmlHelper</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.InternalXmlHelper/RemoveNamespaceAttributesClosure</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>UnitTesting.UnitTest.FileSystem</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Void UnitTesting.UnitTest.FileSystem::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.String UnitTesting.UnitTest.FileSystem::ReadAllText(System.String)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="2" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="72" />
+                <SequencePoint vc="0" uspid="3" ordinal="1" offset="1" sl="8" sc="13" el="8" ec="46" />
+                <SequencePoint vc="0" uspid="4" ordinal="2" offset="10" sl="9" sc="9" el="9" ec="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="2" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="72" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>UnitTesting.UnitTest.FileSystemUsingInterface</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void UnitTesting.UnitTest.FileSystemUsingInterface::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="5" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.String UnitTesting.UnitTest.FileSystemUsingInterface::ReadAllText(System.String)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="6" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="72" />
+                <SequencePoint vc="0" uspid="7" ordinal="1" offset="1" sl="10" sc="13" el="10" ec="46" />
+                <SequencePoint vc="0" uspid="8" ordinal="2" offset="10" sl="11" sc="9" el="11" ec="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="6" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="72" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.Resources.Resources</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MySettings</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MySettingsProperty</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="35" visitedSequencePoints="30" numBranchPoints="14" visitedBranchPoints="13" sequenceCoverage="85.71" branchCoverage="92.86" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" />
+          <FullName>UnitTesting.UnitTest.UnitTestExample</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="6" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="23" visitedSequencePoints="23" numBranchPoints="11" visitedBranchPoints="11" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" />
+              <MetadataToken>100663340</MetadataToken>
+              <Name>System.String UnitTesting.UnitTest.UnitTestExample::Capitalize(System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="46" uspid="9" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="75" />
+                <SequencePoint vc="46" uspid="10" ordinal="1" offset="1" sl="11" sc="13" el="11" ec="37" />
+                <SequencePoint vc="4" uspid="11" ordinal="2" offset="11" sl="12" sc="17" el="12" ec="57" />
+                <SequencePoint vc="42" uspid="12" ordinal="3" offset="22" sl="13" sc="13" el="13" ec="19" />
+                <SequencePoint vc="42" uspid="13" ordinal="4" offset="23" sl="15" sc="17" el="15" ec="41" />
+                <SequencePoint vc="42" uspid="14" ordinal="5" offset="29" sl="16" sc="17" el="16" ec="40" />
+                <SequencePoint vc="42" uspid="15" ordinal="6" offset="31" sl="18" sc="13" el="18" ec="40" />
+                <SequencePoint vc="95" uspid="16" ordinal="7" offset="58" sl="19" sc="17" el="19" ec="41" />
+                <SequencePoint vc="52" uspid="17" ordinal="8" offset="70" sl="20" sc="21" el="20" ec="37" />
+                <SequencePoint vc="28" uspid="18" ordinal="9" offset="80" sl="21" sc="25" el="21" ec="51" />
+                <SequencePoint vc="28" uspid="19" ordinal="10" offset="93" sl="22" sc="25" el="22" ec="36" />
+                <SequencePoint vc="24" uspid="20" ordinal="11" offset="97" sl="23" sc="21" el="23" ec="25" />
+                <SequencePoint vc="24" uspid="21" ordinal="12" offset="98" sl="24" sc="25" el="24" ec="37" />
+                <SequencePoint vc="52" uspid="22" ordinal="13" offset="106" sl="25" sc="21" el="25" ec="27" />
+                <SequencePoint vc="43" uspid="23" ordinal="14" offset="109" sl="26" sc="17" el="26" ec="21" />
+                <SequencePoint vc="43" uspid="24" ordinal="15" offset="110" sl="28" sc="21" el="28" ec="50" />
+                <SequencePoint vc="26" uspid="25" ordinal="16" offset="122" sl="29" sc="25" el="29" ec="40" />
+                <SequencePoint vc="43" uspid="26" ordinal="17" offset="131" sl="30" sc="21" el="30" ec="27" />
+                <SequencePoint vc="43" uspid="27" ordinal="18" offset="132" sl="31" sc="21" el="31" ec="33" />
+                <SequencePoint vc="95" uspid="28" ordinal="19" offset="134" sl="32" sc="17" el="32" ec="23" />
+                <SequencePoint vc="95" uspid="29" ordinal="20" offset="141" sl="33" sc="13" el="33" ec="17" />
+                <SequencePoint vc="42" uspid="30" ordinal="21" offset="154" sl="34" sc="13" el="34" ec="33" />
+                <SequencePoint vc="42" uspid="31" ordinal="22" offset="163" sl="36" sc="9" el="36" ec="21" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="4" uspid="32" ordinal="0" offset="9" path="0" />
+                <BranchPoint vc="42" uspid="33" ordinal="1" offset="9" path="1" />
+                <BranchPoint vc="52" uspid="34" ordinal="2" offset="68" path="0" />
+                <BranchPoint vc="43" uspid="35" ordinal="3" offset="68" path="1" />
+                <BranchPoint vc="28" uspid="36" ordinal="4" offset="78" path="0" />
+                <BranchPoint vc="24" uspid="37" ordinal="5" offset="78" path="1" />
+                <BranchPoint vc="26" uspid="38" ordinal="6" offset="120" path="0" />
+                <BranchPoint vc="17" uspid="39" ordinal="7" offset="120" path="1" />
+                <BranchPoint vc="42" uspid="40" ordinal="8" offset="152" path="0" />
+                <BranchPoint vc="95" uspid="41" ordinal="9" offset="152" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="46" uspid="9" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="75" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663341</MetadataToken>
+              <Name>System.String UnitTesting.UnitTest.UnitTestExample::GetFileContent(System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="42" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="82" />
+                <SequencePoint vc="0" uspid="43" ordinal="1" offset="1" sl="41" sc="17" el="41" ec="39" />
+                <SequencePoint vc="0" uspid="44" ordinal="2" offset="7" sl="43" sc="13" el="43" ec="47" />
+                <SequencePoint vc="0" uspid="45" ordinal="3" offset="15" sl="44" sc="13" el="44" ec="27" />
+                <SequencePoint vc="0" uspid="46" ordinal="4" offset="19" sl="45" sc="9" el="45" ec="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="42" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="82" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663342</MetadataToken>
+              <Name>System.Void UnitTesting.UnitTest.UnitTestExample::.ctor(UnitTesting.UnitTest.IFileSystem)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="47" ordinal="0" offset="0" sl="49" sc="9" el="49" ec="48" />
+                <SequencePoint vc="3" uspid="48" ordinal="1" offset="8" sl="50" sc="13" el="50" ec="24" />
+                <SequencePoint vc="3" uspid="49" ordinal="2" offset="15" sl="51" sc="9" el="51" ec="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="47" ordinal="0" offset="0" sl="49" sc="9" el="49" ec="48" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663343</MetadataToken>
+              <Name>System.String UnitTesting.UnitTest.UnitTestExample::GetFileContentUsingInterface(System.String)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="50" ordinal="0" offset="0" sl="54" sc="9" el="54" ec="89" />
+                <SequencePoint vc="3" uspid="51" ordinal="1" offset="1" sl="56" sc="13" el="56" ec="51" />
+                <SequencePoint vc="1" uspid="52" ordinal="2" offset="14" sl="57" sc="13" el="57" ec="27" />
+                <SequencePoint vc="1" uspid="53" ordinal="3" offset="18" sl="58" sc="9" el="58" ec="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="50" ordinal="0" offset="0" sl="54" sc="9" el="54" ec="89" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="69-41-C9-20-C1-3A-B7-51-98-17-EC-39-A1-8F-53-84-00-1B-8E-F7">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.LoadTest.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.LoadTest</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A8-7F-84-A7-C1-DE-39-22-31-83-9A-4E-80-06-7E-8F-AB-65-62-72">
+      <FullName>D:\UnitTesting\UnitTesting.Tests\bin\Debug\UnitTesting.Tests.dll</FullName>
+      <ModuleName>UnitTesting.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A5-AB-D7-95-7C-97-E5-24-D0-86-D4-30-44-8A-20-DC-5D-0F-7A-9F">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.ControllerObject\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.ControllerObject.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.ControllerObject</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B8-39-7C-A9-6F-A2-19-7A-BE-E7-62-BA-91-F4-25-B1-A3-8D-FB-2A">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.TeamSystem.Licensing.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TeamSystem.Licensing</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="7F-A5-AE-CF-ED-6F-7D-0D-8F-C6-45-30-15-FC-87-10-34-FB-4A-FA">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Common\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Common.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A8-7F-84-A7-C1-DE-39-22-31-83-9A-4E-80-06-7E-8F-AB-65-62-72">
+      <FullName>D:\UnitTesting\UnitTesting.Tests\bin\Debug\UnitTesting.Tests.dll</FullName>
+      <ModuleName>UnitTesting.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="14-88-DE-2B-1C-DD-52-35-0C-77-FB-68-DD-78-83-93-41-42-92-28">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Moles.Framework\0.94.0.0__31bf3856ad364e35\Microsoft.Moles.Framework.dll</FullName>
+      <ModuleName>Microsoft.Moles.Framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7B-EE-BA-CE-DC-22-CE-E5-E8-0C-23-6F-42-15-1B-ED-20-9B-78-A0">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualBasic\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.dll</FullName>
+      <ModuleName>Microsoft.VisualBasic</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="CB-0A-00-C7-D1-17-3E-9A-F9-A6-3B-FC-C4-2B-18-B7-13-D6-5B-E9">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</FullName>
+      <ModuleName>System.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9B-83-91-0F-3E-E6-E8-C7-49-27-E1-63-6D-0E-97-8C-FF-6F-F7-3E">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</FullName>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-BF-00-07-68-F0-67-0D-7B-DB-71-9B-DC-C8-1B-72-6F-60-C2-5A">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</FullName>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="88-AB-AE-F7-E6-84-BC-D6-53-59-99-70-9C-28-DE-FC-83-65-34-B9">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Pex.Framework\0.94.0.0__31bf3856ad364e35\Microsoft.Pex.Framework.dll</FullName>
+      <ModuleName>Microsoft.Pex.Framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="62-BA-1D-01-5D-CC-9F-3C-1C-E1-7A-CA-52-9B-55-F3-2E-E8-9C-80">
+      <FullName>d:\unittesting\unittesting.tests\bin\debug\UnitTesting.Moles.dll</FullName>
+      <ModuleName>UnitTesting.Moles</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="81-BC-DD-72-CF-CF-F9-EF-C9-5F-BD-B5-9C-2A-C7-56-DE-B4-E8-CC">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</FullName>
+      <ModuleName>System.Data</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="52-ED-6E-86-98-BB-E5-C3-38-CB-76-BD-85-15-5B-30-6B-0A-F8-9B">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Pex.Linq\0.94.0.0__31bf3856ad364e35\Microsoft.Pex.Linq.dll</FullName>
+      <ModuleName>Microsoft.Pex.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="41-68-12-82-AB-CD-2F-08-21-4A-D1-A5-7F-CB-D9-0F-1D-09-2B-AC">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.AgentProcessManager\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.AgentProcessManager.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.AgentProcessManager</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="59-72-90-7B-C0-F1-AD-A2-44-37-0C-DF-04-49-77-F3-12-06-EE-64">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.DataCollectionAgentObject\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.DataCollectionAgentObject.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.DataCollectionAgentObject</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="7F-A5-AE-CF-ED-6F-7D-0D-8F-C6-45-30-15-FC-87-10-34-FB-4A-FA">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Common\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Common.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A5-90-5C-39-94-8B-E5-95-8A-19-B9-3A-6A-A0-18-C5-2A-66-55-FA">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.ExecutionCommon\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.ExecutionCommon</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="4F-4E-75-87-5B-1F-42-B3-55-FF-68-D1-08-82-83-15-43-6F-29-89">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.AgentObject\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.AgentObject.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.AgentObject</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="6B-48-6C-A4-BB-79-D8-73-17-CD-3D-78-06-E2-2C-48-93-9D-15-D9">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.DefaultDataQueries.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.DefaultDataQueries</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="1D-0B-A5-FA-5F-CA-17-86-22-D9-E4-DE-E5-10-21-8E-61-A8-70-7D">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="FE-31-CC-65-F5-A8-3C-8A-A7-C4-19-9C-5B-E9-B3-AE-F1-C9-41-40">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.IntelliTrace\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.IntelliTrace.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.IntelliTrace</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="28-72-F4-F8-E9-BC-83-85-11-91-46-6E-3C-DD-35-B1-B8-AD-A9-01">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.Enterprise.AspNetHelper.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.Enterprise.AspNetHelper</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="0C-94-5A-27-F7-8F-D9-88-2F-9F-49-7E-09-B1-97-3C-85-4C-32-86">
+      <FullName>C:\WINDOWS\assembly\GAC\VsWebSite.Interop\8.0.0.0__b03f5f7f11d50a3a\VsWebSite.Interop.dll</FullName>
+      <ModuleName>VsWebSite.Interop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0B-FC-EA-1C-79-C8-FC-D8-AF-9E-12-F3-12-93-4C-9D-C9-27-8E-E3">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.ServiceProcess\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.ServiceProcess.dll</FullName>
+      <ModuleName>System.ServiceProcess</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="83-F7-48-5A-2E-10-EA-44-4C-E3-5F-3E-2D-93-A2-35-D9-7D-76-3D">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.PerformanceTools.DataCollection.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.PerformanceTools.DataCollection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="30-60-C8-1F-9C-FA-BA-15-6D-47-5B-0C-4B-C9-4C-DE-D0-B3-9F-1E">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\Microsoft.Moles.VsHost.exe</FullName>
+      <ModuleName>Microsoft.Moles.VsHost</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E8-47-7A-41-67-F7-5A-91-1D-B2-1A-48-85-F5-81-AF-DE-91-B4-C2">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</FullName>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="03-7C-16-03-B5-BA-F3-0D-BD-3D-DC-F9-68-B8-98-F2-F8-05-F9-5A">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.PerformanceTools.DataCollection.Editor.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.PerformanceTools.DataCollection.Editor</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="14-88-DE-2B-1C-DD-52-35-0C-77-FB-68-DD-78-83-93-41-42-92-28">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Moles.Framework\0.94.0.0__31bf3856ad364e35\Microsoft.Moles.Framework.dll</FullName>
+      <ModuleName>Microsoft.Moles.Framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A8-7F-84-A7-C1-DE-39-22-31-83-9A-4E-80-06-7E-8F-AB-65-62-72">
+      <FullName>D:\UnitTesting\TestResults\souvikd_SOUVIKDXP001F 2013-03-29 03_39_34\Out\UnitTesting.Tests.dll</FullName>
+      <ModuleName>UnitTesting.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="52-ED-6E-86-98-BB-E5-C3-38-CB-76-BD-85-15-5B-30-6B-0A-F8-9B">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Pex.Linq\0.94.0.0__31bf3856ad364e35\Microsoft.Pex.Linq.dll</FullName>
+      <ModuleName>Microsoft.Pex.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="62-BA-1D-01-5D-CC-9F-3C-1C-E1-7A-CA-52-9B-55-F3-2E-E8-9C-80">
+      <FullName>D:\UnitTesting\TestResults\souvikd_SOUVIKDXP001F 2013-03-29 03_39_34\Out\UnitTesting.Moles.dll</FullName>
+      <ModuleName>UnitTesting.Moles</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="86-08-2D-CC-0B-E8-63-4D-DC-98-2F-7E-2E-26-4A-DE-09-29-D7-78">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</FullName>
+      <ModuleName>System.Windows.Forms</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="58-E9-79-07-B6-31-6D-42-8F-4C-19-68-BC-62-CB-6C-DF-AA-E9-FD">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</FullName>
+      <ModuleName>System.Drawing</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="01-2A-04-27-80-BB-62-2D-AE-6F-88-3C-7E-25-20-FC-89-A7-C6-6A">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="3A-FA-22-9D-83-A4-34-4C-D1-62-A5-BA-48-2E-33-29-82-05-0A-5D">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.TestTools.DataCollection.CodeCoverage.Editor.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TestTools.DataCollection.CodeCoverage.Editor</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="EC-4A-50-8C-46-2C-BF-00-99-D4-CA-4E-CE-9B-3B-C3-EC-E7-44-E1">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.TestTools.TestSettings.Common.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TestTools.TestSettings.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="E1-01-FA-5E-A5-DC-C2-D0-D1-07-5E-31-57-79-E2-89-8D-EF-73-52">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.TestTools.DataCollection.EventLog.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TestTools.DataCollection.EventLog</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="4F-08-C2-02-88-10-71-FB-23-C1-6A-29-D7-AA-18-32-04-9B-46-56">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.TestTools.DataCollection.GenericCollector.Editor.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TestTools.DataCollection.GenericCollector.Editor</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="F8-11-85-DC-4C-CE-06-62-AC-9E-72-3A-FC-D6-1E-C0-62-74-DB-51">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.TestTools.DataCollection.NetworkEmulation.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TestTools.DataCollection.NetworkEmulation</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="DF-5D-9C-EE-47-3A-69-B4-0D-9D-D7-43-99-BF-3A-0A-97-35-46-45">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.TestTools.DataCollection.NetworkEmulation.Editor.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TestTools.DataCollection.NetworkEmulation.Editor</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F2-B7-6C-91-B2-2A-27-1D-84-DA-D8-01-19-1B-74-D3-A8-5B-ED-15">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</FullName>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="1B-48-E2-FC-D0-B4-1E-9D-FF-31-37-AA-CA-BA-A9-BD-55-E2-45-2B">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="9A-BC-15-A1-E3-8F-86-27-D6-28-7F-CF-72-96-0C-C6-C0-1E-6F-1D">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="23-3F-D9-A3-4D-FB-7A-0A-E3-FB-9F-C4-C5-EC-D6-EF-9D-A2-3A-36">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\Microsoft.Moles.VsHost.x86.exe</FullName>
+      <ModuleName>Microsoft.Moles.VsHost.x86</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="30-60-C8-1F-9C-FA-BA-15-6D-47-5B-0C-4B-C9-4C-DE-D0-B3-9F-1E">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\Microsoft.Moles.VsHost.exe</FullName>
+      <ModuleName>Microsoft.Moles.VsHost</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A3-33-92-AE-CF-29-9E-CF-43-C1-3C-26-C9-52-77-41-36-BB-1C-6B">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.ExtendedReflection\0.94.0.0__31bf3856ad364e35\Microsoft.ExtendedReflection.dll</FullName>
+      <ModuleName>Microsoft.ExtendedReflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="14-88-DE-2B-1C-DD-52-35-0C-77-FB-68-DD-78-83-93-41-42-92-28">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Moles.Framework\0.94.0.0__31bf3856ad364e35\Microsoft.Moles.Framework.dll</FullName>
+      <ModuleName>Microsoft.Moles.Framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A5-90-5C-39-94-8B-E5-95-8A-19-B9-3A-6A-A0-18-C5-2A-66-55-FA">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.ExecutionCommon\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.ExecutionCommon</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="7F-A5-AE-CF-ED-6F-7D-0D-8F-C6-45-30-15-FC-87-10-34-FB-4A-FA">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Common\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Common.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Common</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="E8-47-7A-41-67-F7-5A-91-1D-B2-1A-48-85-F5-81-AF-DE-91-B4-C2">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</FullName>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9B-83-91-0F-3E-E6-E8-C7-49-27-E1-63-6D-0E-97-8C-FF-6F-F7-3E">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</FullName>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="E7-BB-70-08-60-D6-5D-15-5D-C0-66-6A-51-E7-99-BA-B7-BF-C5-32">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.dll</FullName>
+      <ModuleName>PresentationFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B2-91-68-9D-F2-E7-D6-A2-9B-A4-46-42-0A-EF-65-E5-6E-CC-62-4F">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</FullName>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <FullName>RefEmit_InMemoryManifestModule</FullName>
+      <ModuleName>Microsoft.Moles.VsHost.RunContexts</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="4F-1D-64-0D-6A-8D-11-CB-74-3A-84-6F-C1-FC-85-E7-3F-3A-04-BC">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll</FullName>
+      <ModuleName>PresentationCore</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="81-BC-DD-72-CF-CF-F9-EF-C9-5F-BD-B5-9C-2A-C7-56-DE-B4-E8-CC">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</FullName>
+      <ModuleName>System.Data</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1F-14-6C-92-91-EA-87-77-F2-51-33-42-61-B8-05-25-BA-D7-8B-97">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</FullName>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="4F-4E-75-87-5B-1F-42-B3-55-FF-68-D1-08-82-83-15-43-6F-29-89">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.AgentObject\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.AgentObject.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.AgentObject</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="6A-CB-9C-23-A1-28-3F-24-11-C3-EA-99-78-1C-2D-0A-DE-D5-1F-6E">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</FullName>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="F8-36-6F-FB-24-8B-75-BC-68-2D-0F-F9-58-C8-25-C2-C3-12-3F-72">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll</FullName>
+      <ModuleName>WindowsBase</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="AF-05-8D-43-E3-DA-AB-39-5E-1C-C1-7D-03-30-C2-CD-51-4C-F7-2E">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="1A-8E-7F-63-79-81-73-62-C8-B6-77-39-F8-97-1B-CB-6B-2B-67-76">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.UnitTestFramework\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.UnitTestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="69-41-C9-20-C1-3A-B7-51-98-17-EC-39-A1-8F-53-84-00-1B-8E-F7">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\Microsoft.VisualStudio.QualityTools.LoadTest.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.LoadTest</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="E0-8E-6B-E2-18-27-90-34-28-81-8B-E3-41-6E-3B-B2-EE-88-2A-1E">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.WebTestFramework\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.WebTestFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="89-E0-87-42-63-3F-85-11-02-17-25-39-B2-84-C0-AF-4E-7A-00-AC">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll</FullName>
+      <ModuleName>System.Xaml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="1D-0B-A5-FA-5F-CA-17-86-22-D9-E4-DE-E5-10-21-8E-61-A8-70-7D">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="F9-AF-22-67-28-6E-D6-BA-13-F9-21-FF-C2-49-BF-E1-D4-F2-78-93">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TestTools.ManualTest.ActionLog</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="1D-38-3B-89-BE-7A-03-C8-4C-DF-91-56-72-58-21-6F-28-78-9E-82">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.TraceCollector.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TraceCollector</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-BF-00-07-68-F0-67-0D-7B-DB-71-9B-DC-C8-1B-72-6F-60-C2-5A">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</FullName>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="60-82-A2-88-3C-08-B0-01-02-54-77-46-C8-76-C9-DD-28-CE-58-0F">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.QualityTools.Resource\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.QualityTools.Resource.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.QualityTools.Resource</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="AB-8F-1B-38-42-66-98-93-8A-5D-35-B7-82-DA-8B-3D-2E-22-71-10">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.TraceConfigUI.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.TraceConfigUI</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="BD-64-50-8E-AE-A9-55-76-95-18-42-54-27-FB-0B-F0-8A-DC-59-D1">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\Microsoft.VisualStudio.VIL.NotifyPointInProcHost.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.VIL.NotifyPointInProcHost</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <FullName>RefEmit_InMemoryManifestModule</FullName>
+      <ModuleName>Microsoft.ExtendedReflection.ObjectIdentityComparer</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="48-2A-9D-A9-D8-02-D7-12-35-52-5F-C1-0F-BF-C4-07-08-97-99-D4">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.VIL\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.VIL.dll</FullName>
+      <ModuleName>Microsoft.VisualStudio.VIL</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="17-79-5A-31-85-85-F9-F7-55-70-9B-0A-97-F5-1E-DE-8F-F8-5E-BB">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\VSPerfControl.Interop.dll</FullName>
+      <ModuleName>VSPerfControl.Interop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="B1-3E-9C-DC-90-1D-4C-80-04-C2-67-BF-52-22-DD-90-5C-F3-62-EA">
+      <FullName>D:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\DataCollectors\IntelliTrace.exe</FullName>
+      <ModuleName>IntelliTrace</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="A8-7F-84-A7-C1-DE-39-22-31-83-9A-4E-80-06-7E-8F-AB-65-62-72">
+      <FullName>D:\UnitTesting\TestResults\souvikd_SOUVIKDXP001F 2013-03-29 03_39_34\Out\UnitTesting.Tests.dll</FullName>
+      <ModuleName>UnitTesting.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="88-AB-AE-F7-E6-84-BC-D6-53-59-99-70-9C-28-DE-FC-83-65-34-B9">
+      <FullName>C:\WINDOWS\assembly\GAC_MSIL\Microsoft.Pex.Framework\0.94.0.0__31bf3856ad364e35\Microsoft.Pex.Framework.dll</FullName>
+      <ModuleName>Microsoft.Pex.Framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="31-12-49-D2-8C-CC-CD-5C-D6-46-D4-03-09-2C-91-71-AB-C9-C9-00">
+      <Summary numSequencePoints="41" visitedSequencePoints="5" numBranchPoints="16" visitedBranchPoints="1" sequenceCoverage="12.20" branchCoverage="6.25" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" />
+      <FullName>D:\UnitTesting\TestResults\souvikd_SOUVIKDXP001F 2013-03-29 03_39_34\Out\UnitTesting.dll</FullName>
+      <ModuleName>UnitTesting</ModuleName>
+      <Files>
+        <File uid="7" fullPath="D:\UnitTesting\UnitTesting\FileSystem.vb" />
+        <File uid="8" fullPath="D:\UnitTesting\UnitTesting\FileSystemUsingInterface.vb" />
+        <File uid="9" fullPath="D:\UnitTesting\UnitTesting\UnitTestExample.vb" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" />
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MyApplication</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MyComputer</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MyProject</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MyProject/MyWebServices</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MyProject/ThreadSafeObjectProvider`1</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.InternalXmlHelper</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.InternalXmlHelper/RemoveNamespaceAttributesClosure</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>UnitTesting.UnitTest.FileSystem</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Void UnitTesting.UnitTest.FileSystem::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="3" uspid="54" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.String UnitTesting.UnitTest.FileSystem::ReadAllText(System.String)</Name>
+              <FileRef uid="7" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="55" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="72" />
+                <SequencePoint vc="0" uspid="56" ordinal="1" offset="1" sl="8" sc="13" el="8" ec="46" />
+                <SequencePoint vc="0" uspid="57" ordinal="2" offset="10" sl="9" sc="9" el="9" ec="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="55" ordinal="0" offset="0" sl="7" sc="9" el="7" ec="72" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+          <FullName>UnitTesting.UnitTest.FileSystemUsingInterface</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void UnitTesting.UnitTest.FileSystemUsingInterface::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="58" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.String UnitTesting.UnitTest.FileSystemUsingInterface::ReadAllText(System.String)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="59" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="72" />
+                <SequencePoint vc="0" uspid="60" ordinal="1" offset="1" sl="10" sc="13" el="10" ec="46" />
+                <SequencePoint vc="0" uspid="61" ordinal="2" offset="10" sl="11" sc="9" el="11" ec="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="59" ordinal="0" offset="0" sl="9" sc="9" el="9" ec="72" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.Resources.Resources</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MySettings</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>UnitTesting.My.MySettingsProperty</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="35" visitedSequencePoints="5" numBranchPoints="14" visitedBranchPoints="1" sequenceCoverage="14.29" branchCoverage="7.14" maxCyclomaticComplexity="6" minCyclomaticComplexity="1" />
+          <FullName>UnitTesting.UnitTest.UnitTestExample</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="6" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="23" visitedSequencePoints="0" numBranchPoints="11" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="6" minCyclomaticComplexity="6" />
+              <MetadataToken>100663340</MetadataToken>
+              <Name>System.String UnitTesting.UnitTest.UnitTestExample::Capitalize(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="62" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="75" />
+                <SequencePoint vc="0" uspid="63" ordinal="1" offset="1" sl="11" sc="13" el="11" ec="37" />
+                <SequencePoint vc="0" uspid="64" ordinal="2" offset="11" sl="12" sc="17" el="12" ec="57" />
+                <SequencePoint vc="0" uspid="65" ordinal="3" offset="22" sl="13" sc="13" el="13" ec="19" />
+                <SequencePoint vc="0" uspid="66" ordinal="4" offset="23" sl="15" sc="17" el="15" ec="41" />
+                <SequencePoint vc="0" uspid="67" ordinal="5" offset="29" sl="16" sc="17" el="16" ec="40" />
+                <SequencePoint vc="0" uspid="68" ordinal="6" offset="31" sl="18" sc="13" el="18" ec="40" />
+                <SequencePoint vc="0" uspid="69" ordinal="7" offset="58" sl="19" sc="17" el="19" ec="41" />
+                <SequencePoint vc="0" uspid="70" ordinal="8" offset="70" sl="20" sc="21" el="20" ec="37" />
+                <SequencePoint vc="0" uspid="71" ordinal="9" offset="80" sl="21" sc="25" el="21" ec="51" />
+                <SequencePoint vc="0" uspid="72" ordinal="10" offset="93" sl="22" sc="25" el="22" ec="36" />
+                <SequencePoint vc="0" uspid="73" ordinal="11" offset="97" sl="23" sc="21" el="23" ec="25" />
+                <SequencePoint vc="0" uspid="74" ordinal="12" offset="98" sl="24" sc="25" el="24" ec="37" />
+                <SequencePoint vc="0" uspid="75" ordinal="13" offset="106" sl="25" sc="21" el="25" ec="27" />
+                <SequencePoint vc="0" uspid="76" ordinal="14" offset="109" sl="26" sc="17" el="26" ec="21" />
+                <SequencePoint vc="0" uspid="77" ordinal="15" offset="110" sl="28" sc="21" el="28" ec="50" />
+                <SequencePoint vc="0" uspid="78" ordinal="16" offset="122" sl="29" sc="25" el="29" ec="40" />
+                <SequencePoint vc="0" uspid="79" ordinal="17" offset="131" sl="30" sc="21" el="30" ec="27" />
+                <SequencePoint vc="0" uspid="80" ordinal="18" offset="132" sl="31" sc="21" el="31" ec="33" />
+                <SequencePoint vc="0" uspid="81" ordinal="19" offset="134" sl="32" sc="17" el="32" ec="23" />
+                <SequencePoint vc="0" uspid="82" ordinal="20" offset="141" sl="33" sc="13" el="33" ec="17" />
+                <SequencePoint vc="0" uspid="83" ordinal="21" offset="154" sl="34" sc="13" el="34" ec="33" />
+                <SequencePoint vc="0" uspid="84" ordinal="22" offset="163" sl="36" sc="9" el="36" ec="21" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="85" ordinal="0" offset="9" path="0" />
+                <BranchPoint vc="0" uspid="86" ordinal="1" offset="9" path="1" />
+                <BranchPoint vc="0" uspid="87" ordinal="2" offset="68" path="0" />
+                <BranchPoint vc="0" uspid="88" ordinal="3" offset="68" path="1" />
+                <BranchPoint vc="0" uspid="89" ordinal="4" offset="78" path="0" />
+                <BranchPoint vc="0" uspid="90" ordinal="5" offset="78" path="1" />
+                <BranchPoint vc="0" uspid="91" ordinal="6" offset="120" path="0" />
+                <BranchPoint vc="0" uspid="92" ordinal="7" offset="120" path="1" />
+                <BranchPoint vc="0" uspid="93" ordinal="8" offset="152" path="0" />
+                <BranchPoint vc="0" uspid="94" ordinal="9" offset="152" path="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="62" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="75" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663341</MetadataToken>
+              <Name>System.String UnitTesting.UnitTest.UnitTestExample::GetFileContent(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="95" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="82" />
+                <SequencePoint vc="3" uspid="96" ordinal="1" offset="1" sl="41" sc="17" el="41" ec="39" />
+                <SequencePoint vc="3" uspid="97" ordinal="2" offset="7" sl="43" sc="13" el="43" ec="47" />
+                <SequencePoint vc="1" uspid="98" ordinal="3" offset="15" sl="44" sc="13" el="44" ec="27" />
+                <SequencePoint vc="1" uspid="99" ordinal="4" offset="19" sl="45" sc="9" el="45" ec="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="95" ordinal="0" offset="0" sl="39" sc="9" el="39" ec="82" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663342</MetadataToken>
+              <Name>System.Void UnitTesting.UnitTest.UnitTestExample::.ctor(UnitTesting.UnitTest.IFileSystem)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="100" ordinal="0" offset="0" sl="49" sc="9" el="49" ec="48" />
+                <SequencePoint vc="0" uspid="101" ordinal="1" offset="8" sl="50" sc="13" el="50" ec="24" />
+                <SequencePoint vc="0" uspid="102" ordinal="2" offset="15" sl="51" sc="9" el="51" ec="16" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="100" ordinal="0" offset="0" sl="49" sc="9" el="49" ec="48" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" sequenceCoverage="0" branchCoverage="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" />
+              <MetadataToken>100663343</MetadataToken>
+              <Name>System.String UnitTesting.UnitTest.UnitTestExample::GetFileContentUsingInterface(System.String)</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="103" ordinal="0" offset="0" sl="54" sc="9" el="54" ec="89" />
+                <SequencePoint vc="0" uspid="104" ordinal="1" offset="1" sl="56" sc="13" el="56" ec="51" />
+                <SequencePoint vc="0" uspid="105" ordinal="2" offset="14" sl="57" sc="13" el="57" ec="27" />
+                <SequencePoint vc="0" uspid="106" ordinal="3" offset="18" sl="58" sc="9" el="58" ec="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="103" ordinal="0" offset="0" sl="54" sc="9" el="54" ec="89" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="62-BA-1D-01-5D-CC-9F-3C-1C-E1-7A-CA-52-9B-55-F3-2E-E8-9C-80">
+      <FullName>D:\UnitTesting\TestResults\souvikd_SOUVIKDXP001F 2013-03-29 03_39_34\Out\UnitTesting.Moles.dll</FullName>
+      <ModuleName>UnitTesting.Moles</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="62-BA-1D-01-5D-CC-9F-3C-1C-E1-7A-CA-52-9B-55-F3-2E-E8-9C-80">
+      <FullName>D:\UnitTesting\UnitTesting.Tests\bin\Debug\UnitTesting.Moles.dll</FullName>
+      <ModuleName>UnitTesting.Moles</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9E-B5-7E-2B-F1-0E-6E-13-B2-1F-05-87-42-49-4B-57-0B-D1-61-01">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll</FullName>
+      <ModuleName>System.Transactions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="4C-87-E1-7E-B7-DF-4A-D0-A6-8D-C4-E0-B9-4E-FB-B7-32-10-86-F4">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll</FullName>
+      <ModuleName>System.EnterpriseServices</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="46-B5-6B-B0-02-17-7D-CF-F5-6D-A0-B3-55-F4-E1-E1-CB-4E-D1-7C">
+      <FullName>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.Wrapper.dll</FullName>
+      <ModuleName>System.EnterpriseServices</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
